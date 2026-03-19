@@ -1,0 +1,60 @@
+name: SMT ValueSet Expand Report
+
+on:
+  schedule:
+    # Tous les lundis à 6h UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  scan:
+    name: Scan $expand SMT
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scan
+        env:
+          REPORT_FILE: rapport-smt-expand.md
+          ERRORS_FILE: errors.json
+        run: python smt_expand_scan.py
+
+      - name: Upload rapport (artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-smt-expand-${{ github.run_id }}
+          path: rapport-smt-expand.md
+          retention-days: 90
+
+      - name: Commit rapport dans le repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p reports
+          cp rapport-smt-expand.md reports/rapport-$(date +%Y-%m-%d).md
+          cp rapport-smt-expand.md reports/latest.md
+          git add reports/
+          git diff --cached --quiet || git commit -m "chore: rapport expand SMT du $(date +%Y-%m-%d)"
+          git push
+
+      - name: Gérer les issues GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ERRORS_FILE: errors.json
+        run: python manage_issues.py
+
+      - name: Afficher le résumé dans le job
+        run: |
+          echo "## Résultat du scan" >> $GITHUB_STEP_SUMMARY
+          head -30 rapport-smt-expand.md >> $GITHUB_STEP_SUMMARY
