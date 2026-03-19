@@ -1,0 +1,934 @@
+# Rapport $expand — ValueSets SMT ANS
+
+**Date :** 2026-03-19 17:31 UTC  
+**Source :** https://smt.esante.gouv.fr/fhir  
+**Périmètre :** ValueSets `status=active`
+
+## Résumé
+
+| Statut | Nb |
+|---|---|
+| Total ValueSets actifs | 749 |
+| ✅ OK | **592** |
+| ❌ Erreurs | **157** |
+
+## Erreurs par CodeSystem manquant
+
+| CodeSystem | Nb ValueSets |
+|---|---|
+| `LOINC is not indexed` | 66 |
+| `icd-10` | 37 |
+| `DCM` | 8 |
+| `absent-unknown-uv-ips` | 6 |
+| `atc` | 5 |
+| `terminologie-ncit` | 4 |
+| `unitsofmeasure.org` | 4 |
+| `terminologie-adicap` | 4 |
+| `icf` | 3 |
+| ` post-coordinated expression: line 1:0 token recognition error at: 'e'` | 2 |
+| `v3-RoleClass` | 2 |
+| `terminologie-tccr` | 2 |
+| `TRE-R265-PrestationPilotageSerafin` | 1 |
+| `terminologie-cip_ucd|2026-03` | 1 |
+| `terminologie-sms?vs|20241114120000` | 1 |
+| `1.2.250.1.213.1.1.4.322` | 1 |
+| `allergyintolerance-clinical` | 1 |
+| `allergy-intolerance-criticality` | 1 |
+| `days-of-week` | 1 |
+| `mms` | 1 |
+| `www.imdrf.org` | 1 |
+| `geneId` | 1 |
+| `Thesaurus.owl` | 1 |
+| `` | 1 |
+| `IHERoleCode_Vocabulary` | 1 |
+| `chapter_a.html` | 1 |
+
+## Détail des erreurs
+
+### `LOINC is not indexed` (66)
+
+> [15ed7d20-f8c9-4a31-b260-daa331294caa]: LOINC is not indexed!
+
+- [JDV-J07-XdsTypeCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J07-XdsTypeCode-CISIS) — JDV-J07-XdsTypeCode-CISIS
+- [JDV-J154-TypeGlucose-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J154-TypeGlucose-ENS) — JDV-J154-TypeGlucose-ENS
+- [JDV-J157-MomentGlucose-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J157-MomentGlucose-ENS) — JDV-J157-MomentGlucose-ENS
+- [JDV-J279-Loinc-UPNOS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J279-Loinc-UPNOS) — JDV-J279-Loinc-UPNOS
+- [JDV-J66-TypeCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J66-TypeCode-DMP) — JDV-J66-TypeCode-DMP
+- [jdv-acte-obp-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-acte-obp-cisis) — JDV Acte Obp CISIS
+- [jdv-batterie-examen-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-batterie-examen-cisis) — JDV Batterie Examen CISIS
+- [jdv-bilan-technique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-bilan-technique-cisis) — JDV Bilan Technique CISIS
+- [jdv-code-document-imagerie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis) — JDV Code Document Imagerie CISIS
+- [jdv-delimitation-activite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-delimitation-activite-cisis) — JDV Delimitation Activite CISIS
+- [jdv-disposition-pretherapeutique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-disposition-pretherapeutique-cisis) — JDV Disposition Pretherapeutique CISIS
+- [jdv-evaluation-depression-geriatrique30-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-depression-geriatrique30-cisis) — JDV Evaluation Depression Geriatrique 30 CISIS
+- [jdv-evenement-accouchement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evenement-accouchement-cisis) — JDV Evenement Accouchement CISIS
+- [jdv-examen-biochimie-aunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-biochimie-aunv-cisis) — JDV Examen Biochimie Aunv CISIS
+- [jdv-examen-biochimie-eunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-biochimie-eunv-cisis) — JDV Examen Biochimie Eunv CISIS
+- [jdv-examen-hematologie-aunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-hematologie-aunv-cisis) — JDV Examen Hematologie Aunv CISIS
+- [jdv-examen-hematologie-eunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-hematologie-eunv-cisis) — JDV Examen Hematologie Eunv CISIS
+- [jdv-examen-hemostase-aunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-hemostase-aunv-cisis) — JDV Examen Hemostase Aunv CISIS
+- [jdv-examen-hemostase-eunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-hemostase-eunv-cisis) — JDV Examen Hemostase Eunv CISIS
+- [jdv-info-deces-cs8-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-info-deces-cs8-cisis) — JDV Info Deces Cs8 CISIS
+- [jdv-investigation-realisee-sunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-sunv-cisis) — JDV Investigation Realisee Sunv CISIS
+- [jdv-mesure-lentille-delivree-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis) — JDV Mesure Lentille Delivree CISIS
+- [jdv-mesure-lentille-prescrite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis) — JDV Mesure Lentille Prescrite CISIS
+- [jdv-mesure-type-verre-delivre-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-delivre-cisis) — JDV Mesure Type Verre Delivre CISIS
+- [jdv-mesure-type-verre-prescrit-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-prescrit-cisis) — JDV Mesure Type Verre Prescrit CISIS
+- [jdv-mesure-verre-delivre-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-verre-delivre-cisis) — JDV Mesure Verre Delivre CISIS
+- [jdv-mesure-verre-prescrit-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-verre-prescrit-cisis) — JDV Mesure Verre Prescrit CISIS
+- [jdv-nihss-ataxie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-ataxie-cisis) — JDV Nihss Ataxie CISIS
+- [jdv-nihss-champ-visuel-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-champ-visuel-cisis) — JDV Nihss Champ Visuel CISIS
+- [jdv-nihss-commandes-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-commandes-cisis) — JDV Nihss Commandes CISIS
+- [jdv-nihss-conscience-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-conscience-cisis) — JDV Nihss Conscience CISIS
+- [jdv-nihss-dysarthrie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-dysarthrie-cisis) — JDV Nihss Dysarthrie CISIS
+- [jdv-nihss-fonction-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-fonction-cisis) — JDV Nihss Fonction CISIS
+- [jdv-nihss-langage-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-langage-cisis) — JDV Nihss Langage CISIS
+- [jdv-nihss-motricite-membre-inferieur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-motricite-membre-inferieur-cisis) — JDV Nihss Motricite Membre Inferieur CISIS
+- [jdv-nihss-motricite-membre-superieur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-motricite-membre-superieur-cisis) — JDV Nihss Motricite Membre Superieur CISIS
+- [jdv-nihss-negligence-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-negligence-cisis) — JDV Nihss Negligence CISIS
+- [jdv-nihss-occulomotricite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-occulomotricite-cisis) — JDV Nihss Occulomotricite CISIS
+- [jdv-nihss-paralysie-faciale-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-paralysie-faciale-cisis) — JDV Nihss Paralysie Faciale CISIS
+- [jdv-nihss-questions-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-questions-cisis) — JDV Nihss Questions CISIS
+- [jdv-nihss-sensibilite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-sensibilite-cisis) — JDV Nihss Sensibilite CISIS
+- [jdv-obp-resultat-evenement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-obp-resultat-evenement-cisis) — JDV Obp Resultat Evenement CISIS
+- [jdv-observation-enfant-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-enfant-cisis) — JDV Observation Enfant CISIS
+- [jdv-observation-grossesse-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis) — JDV Observation Grossesse CISIS
+- [jdv-score-braden-activite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-activite-cisis) — JDV Score Braden Activite CISIS
+- [jdv-score-braden-component-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-component-cisis) — JDV Score Braden Component CISIS
+- [jdv-score-braden-friction-cisaillement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-friction-cisaillement-cisis) — JDV Score Braden Friction Cisaillement CISIS
+- [jdv-score-braden-humidite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-humidite-cisis) — JDV Score Braden Humidite CISIS
+- [jdv-score-braden-mobilite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-mobilite-cisis) — JDV Score Braden Mobilite CISIS
+- [jdv-score-braden-nutrition-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-nutrition-cisis) — JDV Score Braden Nutrition CISIS
+- [jdv-score-braden-perception-sensorielle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-perception-sensorielle-cisis) — JDV Score Braden Perception Sensorielle CISIS
+- [jdv-score-performance-ecog-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-performance-ecog-cisis) — JDV Score Performance Ecog CISIS
+- [jdv-score-rankin-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-rankin-cisis) — JDV Score Rankin CISIS
+- [jdv-section-document-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis) — JDV Section Document CISIS
+- [jdv-signe-vital-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cisis) — JDV Signe Vital CISIS
+- [jdv-signe-vital-cs24-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cs24-cisis) — JDV Signe Vital Cs24 CISIS
+- [jdv-signe-vital-cs8-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cs8-cisis) — JDV Signe Vital Cs8 CISIS
+- [jdv-signe-vital-cs9-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cs9-cisis) — JDV Signe Vital Cs9 CISIS
+- [jdv-social-history-code-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-social-history-code-cisis) — JDV Social History Code CISIS
+- [jdv-trod-examen-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis) — Jdv Trod Examen CISIS
+- [jdv-type-de-mesure-acuite-visuelle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-mesure-acuite-visuelle-cisis) — JDV Type De Mesure Acuite Visuelle CISIS
+- [jdv-type-de-mesure-de-refraction-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-mesure-de-refraction-cisis) — JDV Type De Mesure De Refraction CISIS
+- [jdv-type-de-mesure-dispositif-oculaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-mesure-dispositif-oculaire-cisis) — JDV Type De Mesure Dispositif Oculaire CISIS
+- [jdv-type-de-test-realise-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-test-realise-ccu-cisis) — JDV Type De Test Realise Ccu CISIS
+- [jdv-type-directive-anticipee-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis) — JDV Type Directive Anticipee CISIS
+- [jdv-ufcv-code-entree-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-code-entree-cisis) — JDV UFCV Code Entree CISIS
+
+### `http://hl7.org/fhir/sid/icd-10` (37)
+
+> [d4b451ac-a042-4ed3-9d8b-b8a636c8a39b]: A usable code system with URL http://hl7.org/fhir/sid/icd-10 could not be resolved.
+
+- [jdv-anomalie-croissance-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-anomalie-croissance-cisis) — JDV Anomalie Croissance CISIS
+- [jdv-antecedant-medical-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedant-medical-cisis) — JDV Antecedant Medical CISIS
+- [jdv-antecedent-obstetrical-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-obstetrical-cisis) — JDV Antecedent Obstetrical CISIS
+- [jdv-antecedent-obstetrical-obp-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-obstetrical-obp-cisis) — JDV Antecedent Obstetrical Obp CISIS
+- [jdv-antecedent-personnel-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-personnel-cisis) — JDV Antecedent Personnel CISIS
+- [jdv-autre-symptome-avc-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-autre-symptome-avc-cisis) — JDV Autre Symptome Avc CISIS
+- [jdv-autre-symptome-ex-neuro-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-autre-symptome-ex-neuro-cisis) — JDV Autre Symptome Ex Neuro CISIS
+- [jdv-complication-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-cisis) — JDV Complication CISIS
+- [jdv-complication-digestive-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-digestive-cisis) — JDV Complication Digestive CISIS
+- [jdv-complication-neurologique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-neurologique-cisis) — JDV Complication Neurologique CISIS
+- [jdv-complication-neuropsychiatrique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-neuropsychiatrique-cisis) — JDV Complication Neuropsychiatrique CISIS
+- [jdv-complication-pulmonaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-pulmonaire-cisis) — JDV Complication Pulmonaire CISIS
+- [jdv-complication-thromboembolique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-thromboembolique-cisis) — JDV Complication Thromboembolique CISIS
+- [jdv-complication-urinaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-urinaire-cisis) — JDV Complication Urinaire CISIS
+- [jdv-contre-indication-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis) — JDV Contrindication CISIS
+- [jdv-deficience-physique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deficience-physique-cisis) — JDV Deficience Physique CISIS
+- [jdv-etat-naissance-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-naissance-cisis) — JDV Etat Naissance CISIS
+- [jdv-etat-perinee-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-perinee-cisis) — JDV Etat Perinee CISIS
+- [jdv-etiologie-avc-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-avc-cisis) — JDV Etiologie Avc CISIS
+- [jdv-etiologie-hemorragie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-hemorragie-cisis) — JDV Etiologie Hemorragie CISIS
+- [jdv-evaluation-ssiad-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-ssiad-cisis) — JDV Evaluation Ssiad CISIS
+- [jdv-facteur-de-risque-avc-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-facteur-de-risque-avc-cisis) — JDV Facteur De Risque Avc CISIS
+- [jdv-info-prise-en-charge-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-info-prise-en-charge-cisis) — JDV Info Prise En Charge CISIS
+- [jdv-issue-grossesse-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-issue-grossesse-cisis) — JDV Issue Grossesse CISIS
+- [jdv-lesion-traumatique-obstetricale-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lesion-traumatique-obstetricale-cisis) — JDV Lesion Traumatique Obstetricale CISIS
+- [jdv-motif-declenchement-travail-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-declenchement-travail-cisis) — JDV Motif Declenchement Travail CISIS
+- [jdv-motif-hospitalisation-cse-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-hospitalisation-cse-cisis) — JDV Motif Hospitalisation Cse CISIS
+- [jdv-patho-1ere-semaine-cs8-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patho-1ere-semaine-cs8-cisis) — JDV Patho 1ere Semaine Cs8 CISIS
+- [jdv-quantite-liquide-amniotique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-liquide-amniotique-cisis) — JDV Quantite Liquide Amniotique CISIS
+- [jdv-rcp-organe-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-organe-cisis) — JDV RCP Organe CISIS
+- [jdv-symptome-avc-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-symptome-avc-cisis) — JDV Symptome Avc CISIS
+- [jdv-trouble-visuel-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trouble-visuel-cisis) — JDV Trouble Visuel CISIS
+- [jdv-tumeur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tumeur-cisis) — JDV Tumeur CISIS
+- [jdv-type-diabete-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-diabete-cisis) — JDV Type Diabete CISIS
+- [jdv-type-lesion-imagerie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-lesion-imagerie-cisis) — JDV Type Lesion Imagerie CISIS
+- [jdv-type-migraine-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-migraine-cisis) — JDV Type Migraine CISIS
+- [jdv-ufcv-motif-implant-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-motif-implant-cisis) — JDV UFCV Motif Implant CISIS
+
+### `http://dicom.nema.org/resources/ontology/DCM` (8)
+
+> [a0370517-84c3-4bb3-857d-17cc2ac8b26a]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCM could not be resolved.
+
+- [jdv-conduite-a-tenir-1-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-1-cisis) — JDV Conduite A Tenir 1 CISIS
+- [jdv-conduite-a-tenir-3-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-3-cisis) — JDV Conduite A Tenir 3 CISIS
+- [jdv-examen-complementaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-complementaire-cisis) — JDV Examen Complementaire CISIS
+- [jdv-imagerie-objectif-reference-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis) — JDV Imagerie Objectif Reference CISIS
+- [jdv-modalite-acquisition-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-acquisition-cisis) — JDV Modalite Acquisition CISIS
+- [jdv-modalite-demande-acte-imagerie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis) — JDV Modalite Demande Acte Imagerie CISIS
+- [jdv-quantite-exposition-rayonnements-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis) — JDV Quantite Exposition Rayonnements CISIS
+- [jdv-technique-imagerie-d2lm-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-imagerie-d2lm-cisis) — JDV Technique Imagerie D2lm CISIS
+
+### `http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips` (6)
+
+> [eb983ae7-7089-4a03-817e-b3c1c48f28aa]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved.
+
+- [jdv-absent-or-unknown-allergy-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis) — JDV Absent Or Unknown Allergy CISIS
+- [jdv-absent-or-unknown-devices-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis) — JDV Absent Or Unknown Devices CISIS
+- [jdv-absent-or-unknown-immunization-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-immunization-cisis) — JDV Absent Or Unknown Immunization CISIS
+- [jdv-absent-or-unknown-medication-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-medication-cisis) — JDV Absent Or Unknown Medication CISIS
+- [jdv-absent-or-unknown-problem-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-problem-cisis) — JDV Absent Or Unknown Pproblem CISIS
+- [jdv-absent-or-unknown-procedure-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis) — JDV Absent Or Unknown Procedure CISIS
+
+### `http://www.whocc.no/atc` (5)
+
+> [864ee3df-1b38-4e10-9581-115b820cadff]: A usable code system with URL http://www.whocc.no/atc could not be resolved.
+
+- [jdv-allergie-vaccin-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis) — JDV Allergie Vaccin CISIS
+- [jdv-classe-therapie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classe-therapie-cisis) — JDV Classe Therapie CISIS
+- [jdv-vaccin-cse24-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-vaccin-cse24-cisis) — JDV Vaccin Cse24 CISIS
+- [jdv-vaccin-cse8-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-vaccin-cse8-cisis) — JDV Vaccin Cse8 CISIS
+- [jdv-vaccin-cse9-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-vaccin-cse9-cisis) — JDV Vaccin Cse9 CISIS
+
+### `https://smt.esante.gouv.fr/terminologie-ncit` (4)
+
+> [2e223f90-e629-4895-acf5-1da95486e5b1]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+
+- [JDV-J146-MethodBodyHeight-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J146-MethodBodyHeight-ENS) — JDV-J146-MethodBodyHeight-ENS
+- [JDV-J159-MethodPainSeverity-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J159-MethodPainSeverity-ENS) — JDV-J159-MethodPainSeverity-ENS
+- [JDV-J277-NCIT-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J277-NCIT-CISIS) — JDV-J277-NCIT-CISIS
+- [jdv-lateralite-ncit-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-ncit-cisis) — JDV Lateralite Ncit CISIS
+
+### `http://unitsofmeasure.org` (4)
+
+> [3f641c7b-6556-44e5-b036-d73591faa49b]: A usable code system with URL http://unitsofmeasure.org could not be resolved.
+
+- [JDV-J163-GlucoseUnits-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J163-GlucoseUnits-ENS) — JDV-J163-GlucoseUnits-ENS
+- [JDV-J278-UcumUniteMesure-UPNOS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J278-UcumUniteMesure-UPNOS) — JDV-J278-UcumUniteMesure-UPNOS
+- [JDV-J37-UcumUniteTemps](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J37-UcumUniteTemps) — JDV-J37-UcumUniteTemps
+- [JDV-J49-UcumUniteLongueur](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J49-UcumUniteLongueur) — JDV-J49-UcumUniteLongueur
+
+### `https://smt.esante.gouv.fr/terminologie-adicap` (4)
+
+> [09825a21-7f51-4f76-8462-91e8b56f9391]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+
+- [jdv-conditionnement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conditionnement-cisis) — JDV Conditionnement CISIS
+- [jdv-organe-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-organe-cisis) — JDV Organe CISIS
+- [jdv-type-histo-etat-tumoral-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-histo-etat-tumoral-cisis) — JDV Type Histo Etat Tumoral CISIS
+- [jdv-type-pelevement-origine-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-pelevement-origine-cisis) — JDV Type Pelevement Origine CISIS
+
+### `http://hl7.org/fhir/sid/icf` (3)
+
+> [8a96eb20-9217-45aa-9ed8-fe2f65ce9549]: A usable code system with URL http://hl7.org/fhir/sid/icf could not be resolved.
+
+- [jdv-evaluation-aggir-pa-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-pa-cisis) — JDV Evaluation Aggir Pa CISIS
+- [jdv-evaluation-aggir-ph-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-ph-cisis) — JDV Evaluation Aggir Ph CISIS
+- [jdv-resultat-evaluation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-evaluation-cisis) — JDV Resultat Evaluation CISIS
+
+### `Invalid concept / post-coordinated expression: line 1:0 token recognition error at: 'e'` (2)
+
+> Invalid concept / post-coordinated expression: line 1:0 token recognition error at: 'e'
+
+- [jdv-mso-resultat-qualitatif-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-cisis) — Jdv MSO Resultat Qualitatif CISIS
+- [jdv-resultat-qualitatif-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-qualitatif-cisis) — Jdv Resultat Qualitatif CISIS
+
+### `http://terminology.hl7.org/CodeSystem/v3-RoleClass` (2)
+
+> [eae1ccca-9b95-4b5b-9c3b-36cd0a2e6f2a]: A usable code system with URL http://terminology.hl7.org/CodeSystem/v3-RoleClass could not be resolved.
+
+- [jdv-hl7-v3-RoleClassIngredientEntity-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis) — RoleClassIngredientEntity
+- [jdv-role-informateur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis) — Jdv Role Informateur CISIS
+
+### `https://smt.esante.gouv.fr/terminologie-tccr` (2)
+
+> [da4e3db4-7c30-4da5-84df-b2e006b735b7]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+
+- [jdv-technique-biologie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis) — JDV Technique Biologie CISIS
+- [jdv-trousse-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trousse-ccu-cisis) — JDV Trousse Ccu CISIS
+
+### `https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin` (1)
+
+> [e2872b77-4498-4726-aef4-d430e7e3d9d6]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+
+- [JDV-J51-FamilleActiviteOperationnelle-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR) — JDV-J51-FamilleActiviteOperationnelle-ROR
+
+### `https://smt.esante.gouv.fr/terminologie-cip_ucd|2026-03` (1)
+
+> [f46d09f1-f459-4e21-a8d8-783d81d82f8b]: Could not find the code system https://smt.esante.gouv.fr/terminologie-cip_ucd|2026-03
+
+- [vs-cipucd-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-cipucd-all) — vs-cipucd-all
+
+### `https://smt.esante.gouv.fr/terminologie-sms?vs|20241114120000` (1)
+
+> [d2f9bfb0-06b0-4b35-b2ce-030bcf2d60bf]: The expansion of value set https://smt.esante.gouv.fr/terminologie-sms?vs|20241114120000 was too big (>50000).
+
+- [vs-sms-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-sms-all) — vs-sms-all
+
+### `https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322` (1)
+
+> [2840a938-399a-498e-a7a9-b83fa0976d4f]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 could not be resolved.
+
+- [VS-test](https://smt.esante.gouv.fr/fhir/ValueSet/VS-test) — VS-test
+
+### `http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical` (1)
+
+> [f4d81e51-2ef7-4ea6-91dc-9d2649b94927]: A usable code system with URL http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical could not be resolved.
+
+- [jdv-hl7-allergyintolerance-clinical-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergyintolerance-clinical-cisis) — AllergyIntolerance Clinical Status Codes
+
+### `http://hl7.org/fhir/allergy-intolerance-criticality` (1)
+
+> [7a6f1e7a-d0cc-4ac2-aafc-c6bd7d7bd3c7]: A usable code system with URL http://hl7.org/fhir/allergy-intolerance-criticality could not be resolved.
+
+- [jdv-hl7-allergy-intolerance-criticality-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-criticality-cisis) — Allergy Intolerance Criticality
+
+### `http://hl7.org/fhir/days-of-week` (1)
+
+> [0cad10c6-0319-4368-972a-e91285dec674]: A usable code system with URL http://hl7.org/fhir/days-of-week could not be resolved.
+
+- [jdv-hl7-days-of-week](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week) — DaysOfWeek
+
+### `http://id.who.int/icd/release/11/mms` (1)
+
+> [57ad0724-b36e-4737-900a-ecafcb27a90a]: A usable code system with URL http://id.who.int/icd/release/11/mms could not be resolved.
+
+- [jdv-cause-accident-domestique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cause-accident-domestique-cisis) — JDV Cause Accident Domestique CISIS
+
+### `https://www.imdrf.org` (1)
+
+> [8462d135-99a3-4e4a-9a54-ba08891e4a7c]: A usable code system with URL https://www.imdrf.org could not be resolved.
+
+- [jdv-defaillance-materielle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis) — JDV Defaillance Materielle CISIS
+
+### `http://www.genenames.org/geneId` (1)
+
+> [fcf56ac1-d3d3-42a1-a1af-1610edcfc40f]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+
+- [jdv-gene-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis) — JDV Gene CISIS
+
+### `http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl` (1)
+
+> [c0582c9d-bd18-4874-b975-731cccadc6ef]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+
+- [jdv-methode-de-mesure-acuite-visuelle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis) — JDV Methode De Mesure Acuite Visuelle CISIS
+
+### `https://smt.esante.gouv.fr/terminologie-PCS/` (1)
+
+> [21943392-2916-425b-a92b-8c67831d9499]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-PCS/ could not be resolved.
+
+- [jdv-profession-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-cisis) — JDV Profession CISIS
+
+### `https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary` (1)
+
+> [b5075e4a-562e-4a14-8855-b08c4137f84b]: A usable code system with URL https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary could not be resolved.
+
+- [jdv-secteur-activite-employeur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis) — JDV Secteur Activite Employeur CISIS
+
+### `https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html` (1)
+
+> [8f29fd62-b66f-4f97-b872-e9ca378860cc]: A usable code system with URL https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html could not be resolved.
+
+- [jdv-sop-class-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis) — JDV Sop Class CISIS
+
+## ValueSets OK
+
+<details><summary>Voir la liste complète</summary>
+
+| ValueSet | Titre | Nb concepts |
+|---|---|---|
+| [JDV-J01-XdsAuthorSpecialty-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS) | JDV-J01-XdsAuthorSpecialty-CISIS | 392 |
+| [JDV-J02-XdsHealthcareFacilityTypeCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS) | JDV-J02-XdsHealthcareFacilityTypeCode-CISIS | 69 |
+| [JDV-J03-XdsContentTypeCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J03-XdsContentTypeCode-CISIS) | JDV-J03-XdsContentTypeCode-CISIS | 100 |
+| [JDV-J04-XdsPracticeSettingCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J04-XdsPracticeSettingCode-CISIS) | JDV-J04-XdsPracticeSettingCode-CISIS | 12 |
+| [JDV-J05-SubjectRole-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J05-SubjectRole-CISIS) | JDV-J05-SubjectRole-CISIS | 446 |
+| [JDV-J06-XdsClassCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J06-XdsClassCode-CISIS) | JDV-J06-XdsClassCode-CISIS | 13 |
+| [JDV-J08-XdsConfidentialityCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J08-XdsConfidentialityCode-CISIS) | JDV-J08-XdsConfidentialityCode-CISIS | 6 |
+| [JDV-J10-XdsFormatCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J10-XdsFormatCode-CISIS) | JDV-J10-XdsFormatCode-CISIS | 63 |
+| [JDV-J100-FinessStatutJuridique-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J100-FinessStatutJuridique-RASS) | JDV-J100-FinessStatutJuridique-RASS | 79 |
+| [JDV-J101-SecteurActivite-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J101-SecteurActivite-RASS) | JDV-J101-SecteurActivite-RASS | 69 |
+| [JDV-J103-TypeVoie-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J103-TypeVoie-RASS) | JDV-J103-TypeVoie-RASS | 184 |
+| [JDV-J104-TypeIdentifiantStructure-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J104-TypeIdentifiantStructure-RASS) | JDV-J104-TypeIdentifiantStructure-RASS | 5 |
+| [JDV-J105-EnsembleDiplome-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J105-EnsembleDiplome-RASS) | JDV-J105-EnsembleDiplome-RASS | 773 |
+| [JDV-J106-EnsembleProfession-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J106-EnsembleProfession-RASS) | JDV-J106-EnsembleProfession-RASS | 30 |
+| [JDV-J107-EnsembleSavoirFaire-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J107-EnsembleSavoirFaire-RASS) | JDV-J107-EnsembleSavoirFaire-RASS | 267 |
+| [JDV-J108-EnsembleFonction-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J108-EnsembleFonction-RASS) | JDV-J108-EnsembleFonction-RASS | 117 |
+| [JDV-J11-RelationPatient-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J11-RelationPatient-CISIS) | JDV-J11-RelationPatient-CISIS | 37 |
+| [JDV-J110-StatutVisibiliteDocument-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J110-StatutVisibiliteDocument-CISIS) | JDV-J110-StatutVisibiliteDocument-CISIS | 5 |
+| [JDV-J111-StatutEtatCivil-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J111-StatutEtatCivil-ENREG) | JDV-J111-StatutEtatCivil-ENREG | 8 |
+| [JDV-J112-SexeAdministratif-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J112-SexeAdministratif-ENREG) | JDV-J112-SexeAdministratif-ENREG | 2 |
+| [JDV-J113-Civilite-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J113-Civilite-ENREG) | JDV-J113-Civilite-ENREG | 2 |
+| [JDV-J115-Langue-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J115-Langue-ENREG) | JDV-J115-Langue-ENREG | 187 |
+| [JDV-J116-GenreActivite-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J116-GenreActivite-ENREG) | JDV-J116-GenreActivite-ENREG | 8 |
+| [JDV-J117-ModeExercice-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J117-ModeExercice-ENREG) | JDV-J117-ModeExercice-ENREG | 4 |
+| [JDV-J118-CategorieProfessionnelle-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J118-CategorieProfessionnelle-ENREG) | JDV-J118-CategorieProfessionnelle-ENREG | 3 |
+| [JDV-J119-TypeActiviteLiberale-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J119-TypeActiviteLiberale-ENREG) | JDV-J119-TypeActiviteLiberale-ENREG | 6 |
+| [JDV-J120-CommuneHistorisee](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J120-CommuneHistorisee) | JDV-J120-CommuneHistorisee | 39294 |
+| [JDV-J121-RolePriseCharge-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J121-RolePriseCharge-ENREG) | JDV-J121-RolePriseCharge-ENREG | 55 |
+| [JDV-J122-Profession-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J122-Profession-ENREG) | JDV-J122-Profession-ENREG | 1 |
+| [JDV-J124-Commune](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J124-Commune) | JDV-J124-Commune | 34971 |
+| [JDV-J125-MotifRejet-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J125-MotifRejet-ENREG) | JDV-J125-MotifRejet-ENREG | 3 |
+| [JDV-J126-SecteurActivite-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J126-SecteurActivite-ENREG) | JDV-J126-SecteurActivite-ENREG | 32 |
+| [JDV-J127-StatutJuridique-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J127-StatutJuridique-ENREG) | JDV-J127-StatutJuridique-ENREG | 62 |
+| [JDV-J128-TypeCarte-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J128-TypeCarte-RASS) | JDV-J128-TypeCarte-RASS | 4 |
+| [JDV-J13-ResponsableConsent-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J13-ResponsableConsent-CISIS) | JDV-J13-ResponsableConsent-CISIS | 23 |
+| [JDV-J130-CNAMAmeliSecteurConventionnement-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J130-CNAMAmeliSecteurConventionnement-RASS) | JDV-J130-CNAMAmeliSecteurConventionnement-RASS | 4 |
+| [JDV-J132-ModaliteActivite-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J132-ModaliteActivite-RASS) | JDV-J132-ModaliteActivite-RASS | 179 |
+| [JDV-J133-ActiviteSanitaireRegulee-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J133-ActiviteSanitaireRegulee-RASS) | JDV-J133-ActiviteSanitaireRegulee-RASS | 66 |
+| [JDV-J134-FormeActivite-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J134-FormeActivite-RASS) | JDV-J134-FormeActivite-RASS | 40 |
+| [JDV-J135-EquipementMaterielLourd-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J135-EquipementMaterielLourd-RASS) | JDV-J135-EquipementMaterielLourd-RASS | 8 |
+| [JDV-J138-TypeActivite-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J138-TypeActivite-RASS) | JDV-J138-TypeActivite-RASS | 42 |
+| [JDV-J139-TypeBAL-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J139-TypeBAL-RASS) | JDV-J139-TypeBAL-RASS | 4 |
+| [JDV-J14-QualiteRepresentantLegal-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J14-QualiteRepresentantLegal-CISIS) | JDV-J14-QualiteRepresentantLegal-CISIS | 43 |
+| [JDV-J140-EncounterParticipationType-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J140-EncounterParticipationType-CISIS) | JDV-J140-EncounterParticipationType-CISIS | 6 |
+| [JDV-J141-RoleClass-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J141-RoleClass-CISIS) | JDV-J141-RoleClass-CISIS | 2 |
+| [JDV-J142-TypeRencontre-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J142-TypeRencontre-CISIS) | JDV-J142-TypeRencontre-CISIS | 8 |
+| [JDV-J143-AdministrativeGender-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J143-AdministrativeGender-CISIS) | JDV-J143-AdministrativeGender-CISIS | 3 |
+| [JDV-J144-ParticipationType-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J144-ParticipationType-CISIS) | JDV-J144-ParticipationType-CISIS | 7 |
+| [JDV-J145-MethodBodyWeight-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J145-MethodBodyWeight-ENS) | JDV-J145-MethodBodyWeight-ENS | 1 |
+| [JDV-J147-MethodHeartrate-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J147-MethodHeartrate-ENS) | JDV-J147-MethodHeartrate-ENS | 5 |
+| [JDV-J149-BodySiteBP-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J149-BodySiteBP-ENS) | JDV-J149-BodySiteBP-ENS | 2 |
+| [JDV-J15-ClasseAge-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J15-ClasseAge-ROR) | JDV-J15-ClasseAge-ROR | 8 |
+| [JDV-J150-MethodBP-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J150-MethodBP-ENS) | JDV-J150-MethodBP-ENS | 4 |
+| [JDV-J151-BodySiteBodyTemperature-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J151-BodySiteBodyTemperature-ENS) | JDV-J151-BodySiteBodyTemperature-ENS | 6 |
+| [JDV-J152-MethodBodyTemperature-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J152-MethodBodyTemperature-ENS) | JDV-J152-MethodBodyTemperature-ENS | 2 |
+| [JDV-J155-MethodGlucoseSanguin-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J155-MethodGlucoseSanguin-ENS) | JDV-J155-MethodGlucoseSanguin-ENS | 2 |
+| [JDV-J156-MethodGlucoseInterstitiel-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J156-MethodGlucoseInterstitiel-ENS) | JDV-J156-MethodGlucoseInterstitiel-ENS | 1 |
+| [JDV-J158-MethodStepsByDay-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J158-MethodStepsByDay-ENS) | JDV-J158-MethodStepsByDay-ENS | 3 |
+| [JDV-J16-ActeSpecifique-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J16-ActeSpecifique-ROR) | JDV-J16-ActeSpecifique-ROR | 1212 |
+| [JDV-J161-Lateralite-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J161-Lateralite-CISIS) | JDV-J161-Lateralite-CISIS | 4 |
+| [JDV-J162-ESPIC-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J162-ESPIC-RASS) | JDV-J162-ESPIC-RASS | 9 |
+| [JDV-J164-GlucoseNumberOfDays-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J164-GlucoseNumberOfDays-ENS) | JDV-J164-GlucoseNumberOfDays-ENS | 5 |
+| [JDV-J165-TypeCreneau-SAS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J165-TypeCreneau-SAS) | JDV-J165-TypeCreneau-SAS | 4 |
+| [JDV-J166-Profession-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J166-Profession-EPARS) | JDV-J166-Profession-EPARS | 21 |
+| [JDV-J169-MotifFinActivite-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J169-MotifFinActivite-EPARS) | JDV-J169-MotifFinActivite-EPARS | 9 |
+| [JDV-J17-ActiviteOperationnelle-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR) | JDV-J17-ActiviteOperationnelle-ROR | 522 |
+| [JDV-J170-AutoriteEnregistrement-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J170-AutoriteEnregistrement-EPARS) | JDV-J170-AutoriteEnregistrement-EPARS | 19 |
+| [JDV-J171-TypeAutorisation-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J171-TypeAutorisation-EPARS) | JDV-J171-TypeAutorisation-EPARS | 22 |
+| [JDV-J172-SecteurActivite-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J172-SecteurActivite-EPARS) | JDV-J172-SecteurActivite-EPARS | 63 |
+| [JDV-J173-FinessStatutJuridique-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J173-FinessStatutJuridique-EPARS) | JDV-J173-FinessStatutJuridique-EPARS | 79 |
+| [JDV-J176-SituationVieQuotidienne-MDPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J176-SituationVieQuotidienne-MDPH) | JDV-J176-SituationVieQuotidienne-MDPH | 5 |
+| [JDV-J177-BesoinAideMobilite-MDPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J177-BesoinAideMobilite-MDPH) | JDV-J177-BesoinAideMobilite-MDPH | 7 |
+| [JDV-J178-BesoinAideVieSociale-MDPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J178-BesoinAideVieSociale-MDPH) | JDV-J178-BesoinAideVieSociale-MDPH | 7 |
+| [JDV-J179-BesoinCommunication-MDPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J179-BesoinCommunication-MDPH) | JDV-J179-BesoinCommunication-MDPH | 4 |
+| [JDV-J18-EquipementSpecifique-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J18-EquipementSpecifique-ROR) | JDV-J18-EquipementSpecifique-ROR | 155 |
+| [JDV-J180-BesoinEntretienPersonnel-MDPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J180-BesoinEntretienPersonnel-MDPH) | JDV-J180-BesoinEntretienPersonnel-MDPH | 5 |
+| [JDV-J181-BesoinMobilite-MDPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J181-BesoinMobilite-MDPH) | JDV-J181-BesoinMobilite-MDPH | 4 |
+| [JDV-J182-BesoinScolarite-MDPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J182-BesoinScolarite-MDPH) | JDV-J182-BesoinScolarite-MDPH | 7 |
+| [JDV-J183-Diplome-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J183-Diplome-EPARS) | JDV-J183-Diplome-EPARS | 64 |
+| [JDV-J185-TypeFermeture-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J185-TypeFermeture-ROR) | JDV-J185-TypeFermeture-ROR | 3 |
+| [JDV-J186-ProfessionRessource-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J186-ProfessionRessource-ROR) | JDV-J186-ProfessionRessource-ROR | 149 |
+| [JDV-J187-NatureCapacite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J187-NatureCapacite-ROR) | JDV-J187-NatureCapacite-ROR | 2 |
+| [JDV-J188-TypeStatutCapacite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J188-TypeStatutCapacite-ROR) | JDV-J188-TypeStatutCapacite-ROR | 6 |
+| [JDV-J189-TemporaliteCapacite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J189-TemporaliteCapacite-ROR) | JDV-J189-TemporaliteCapacite-ROR | 5 |
+| [JDV-J19-ModePriseEnCharge-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J19-ModePriseEnCharge-ROR) | JDV-J19-ModePriseEnCharge-ROR | 36 |
+| [JDV-J190-GenreCapacite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J190-GenreCapacite-ROR) | JDV-J190-GenreCapacite-ROR | 3 |
+| [JDV-J191-TypeFermetureCapacite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J191-TypeFermetureCapacite-ROR) | JDV-J191-TypeFermetureCapacite-ROR | 3 |
+| [JDV-J192-TypeLitSupplementaire-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J192-TypeLitSupplementaire-ROR) | JDV-J192-TypeLitSupplementaire-ROR | 3 |
+| [JDV-J193-TypeSourceCapacite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J193-TypeSourceCapacite-ROR) | JDV-J193-TypeSourceCapacite-ROR | 4 |
+| [JDV-J194-TypeCrise-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J194-TypeCrise-ROR) | JDV-J194-TypeCrise-ROR | 2 |
+| [JDV-J195-AffectationTemporaire-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J195-AffectationTemporaire-ROR) | JDV-J195-AffectationTemporaire-ROR | 3 |
+| [JDV-J196-StatutCommunication-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J196-StatutCommunication-ROR) | JDV-J196-StatutCommunication-ROR | 1 |
+| [JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS) | JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS | 7 |
+| [JDV-J198-FonctionLieu-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J198-FonctionLieu-ROR) | JDV-J198-FonctionLieu-ROR | 28 |
+| [JDV-J199-StatutJuridique-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J199-StatutJuridique-ROR) | JDV-J199-StatutJuridique-ROR | 79 |
+| [JDV-J20-ChampActivite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J20-ChampActivite-ROR) | JDV-J20-ChampActivite-ROR | 5 |
+| [JDV-J200-SousEnsembleAgregatStatutJuridique-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J200-SousEnsembleAgregatStatutJuridique-ROR) | JDV-J200-SousEnsembleAgregatStatutJuridique-ROR | 5 |
+| [JDV-J201-TypeFermeture-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J201-TypeFermeture-ROR) | JDV-J201-TypeFermeture-ROR | 7 |
+| [JDV-J202-ESPIC-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J202-ESPIC-ROR) | JDV-J202-ESPIC-ROR | 9 |
+| [JDV-J203-TypeOrganisationInterne-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J203-TypeOrganisationInterne-ROR) | JDV-J203-TypeOrganisationInterne-ROR | 6 |
+| [JDV-J204-NiveauRecoursORSAN-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J204-NiveauRecoursORSAN-ROR) | JDV-J204-NiveauRecoursORSAN-ROR | 2 |
+| [JDV-J205-UnitePrix-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J205-UnitePrix-ROR) | JDV-J205-UnitePrix-ROR | 4 |
+| [JDV-J206-PrestationNonObligatoireIncluse-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J206-PrestationNonObligatoireIncluse-ROR) | JDV-J206-PrestationNonObligatoireIncluse-ROR | 11 |
+| [JDV-J207-Civilite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J207-Civilite-ROR) | JDV-J207-Civilite-ROR | 3 |
+| [JDV-J208-CiviliteExercice-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J208-CiviliteExercice-ROR) | JDV-J208-CiviliteExercice-ROR | 6 |
+| [JDV-J209-TypeSavoirFaire-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J209-TypeSavoirFaire-ROR) | JDV-J209-TypeSavoirFaire-ROR | 12 |
+| [JDV-J21-PalierAuthentificationActeurPP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J21-PalierAuthentificationActeurPP) | JDV-J21-PalierAuthentificationActeurPP | 5 |
+| [JDV-J210-SpecialiteOrdinale-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J210-SpecialiteOrdinale-ROR) | JDV-J210-SpecialiteOrdinale-ROR | 103 |
+| [JDV-J211-CompetenceExclusive-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J211-CompetenceExclusive-ROR) | JDV-J211-CompetenceExclusive-ROR | 4 |
+| [JDV-J212-OrientationParticuliere-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J212-OrientationParticuliere-ROR) | JDV-J212-OrientationParticuliere-ROR | 2 |
+| [JDV-J213-CapaciteSavoirFaire-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J213-CapaciteSavoirFaire-ROR) | JDV-J213-CapaciteSavoirFaire-ROR | 16 |
+| [JDV-J214-QualificationPAC-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J214-QualificationPAC-ROR) | JDV-J214-QualificationPAC-ROR | 1 |
+| [JDV-J215-DESCnonQualifiant-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J215-DESCnonQualifiant-ROR) | JDV-J215-DESCnonQualifiant-ROR | 41 |
+| [JDV-J216-DroitExerciceCompl-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J216-DroitExerciceCompl-ROR) | JDV-J216-DroitExerciceCompl-ROR | 24 |
+| [JDV-J217-ModeExercice-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J217-ModeExercice-ROR) | JDV-J217-ModeExercice-ROR | 4 |
+| [JDV-J218-CNAMAmeliSecteurConventionnement-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J218-CNAMAmeliSecteurConventionnement-ROR) | JDV-J218-CNAMAmeliSecteurConventionnement-ROR | 4 |
+| [JDV-J219-TypeVoie-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J219-TypeVoie-ROR) | JDV-J219-TypeVoie-ROR | 185 |
+| [JDV-J22-RestrictionAudienceVIHF-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J22-RestrictionAudienceVIHF-CISIS) | JDV-J22-RestrictionAudienceVIHF-CISIS | 1 |
+| [JDV-J220-FonctionContact-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J220-FonctionContact-ROR) | JDV-J220-FonctionContact-ROR | 26 |
+| [JDV-J221-NatureContact-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J221-NatureContact-ROR) | JDV-J221-NatureContact-ROR | 17 |
+| [JDV-J222-NiveauConfidentialite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J222-NiveauConfidentialite-ROR) | JDV-J222-NiveauConfidentialite-ROR | 3 |
+| [JDV-J223-TypeDivisionTerritoriale-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J223-TypeDivisionTerritoriale-ROR) | JDV-J223-TypeDivisionTerritoriale-ROR | 6 |
+| [JDV-J224-StatutLieu-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J224-StatutLieu-ROR) | JDV-J224-StatutLieu-ROR | 3 |
+| [JDV-J225-CanalCommunication-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J225-CanalCommunication-ROR) | JDV-J225-CanalCommunication-ROR | 9 |
+| [JDV-J226-ModaliteAccueil-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J226-ModaliteAccueil-ROR) | JDV-J226-ModaliteAccueil-ROR | 26 |
+| [JDV-J227-NiveauExpertise-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J227-NiveauExpertise-ROR) | JDV-J227-NiveauExpertise-ROR | 43 |
+| [JDV-J228-TypeCaracteristiqueEquipement-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J228-TypeCaracteristiqueEquipement-ROR) | JDV-J228-TypeCaracteristiqueEquipement-ROR | 2 |
+| [JDV-J229-ProfessionSante-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J229-ProfessionSante-ROR) | JDV-J229-ProfessionSante-ROR | 29 |
+| [JDV-J23-TypeNoteCahierLiaison-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J23-TypeNoteCahierLiaison-CISIS) | JDV-J23-TypeNoteCahierLiaison-CISIS | 5 |
+| [JDV-J231-XdsTypesIdentifiantsReferenceId-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J231-XdsTypesIdentifiantsReferenceId-DMP) | JDV-J231-XdsTypesIdentifiantsReferenceId-DMP | 3 |
+| [JDV-J232-Competence-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J232-Competence-ROR) | JDV-J232-Competence-ROR | 43 |
+| [JDV-J233-TypeDiplome-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J233-TypeDiplome-EPARS) | JDV-J233-TypeDiplome-EPARS | 4 |
+| [JDV-J234-GenreActivite-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J234-GenreActivite-EPARS) | JDV-J234-GenreActivite-EPARS | 2 |
+| [JDV-J235-LieuFormation-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J235-LieuFormation-EPARS) | JDV-J235-LieuFormation-EPARS | 110 |
+| [JDV-J236-TypeIdentifiant-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J236-TypeIdentifiant-ROR) | JDV-J236-TypeIdentifiant-ROR | 14 |
+| [JDV-J238-TypeOffre-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J238-TypeOffre-ROR) | JDV-J238-TypeOffre-ROR | 295 |
+| [JDV-J239-SpecialitesSNP-SAS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J239-SpecialitesSNP-SAS) | JDV-J239-SpecialitesSNP-SAS | 26 |
+| [JDV-J24-ProfessionAuteurNote-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J24-ProfessionAuteurNote-CISIS) | JDV-J24-ProfessionAuteurNote-CISIS | 23 |
+| [JDV-J241-ThematiqueAnomalie-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J241-ThematiqueAnomalie-ROR) | JDV-J241-ThematiqueAnomalie-ROR | 6 |
+| [JDV-J242-ActionAnomalie-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J242-ActionAnomalie-ROR) | JDV-J242-ActionAnomalie-ROR | 3 |
+| [JDV-J244-StatutMetierAnomalie-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J244-StatutMetierAnomalie-ROR) | JDV-J244-StatutMetierAnomalie-ROR | 11 |
+| [JDV-J245-Civilite-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J245-Civilite-CISIS) | JDV-J245-Civilite-CISIS | 2 |
+| [JDV-J246-Titre-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J246-Titre-CISIS) | JDV-J246-Titre-CISIS | 6 |
+| [JDV-J249-TerritoireSante-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J249-TerritoireSante-ROR) | JDV-J249-TerritoireSante-ROR | 132 |
+| [JDV-J250-MotifStatutPersonnePriseChargeUnite](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J250-MotifStatutPersonnePriseChargeUnite) | JDV-J250-MotifStatutPersonnePriseChargeUnite | 29 |
+| [JDV-J251-MotifStatutPersonnePriseChargeESMS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J251-MotifStatutPersonnePriseChargeESMS) | JDV-J251-MotifStatutPersonnePriseChargeESMS | 24 |
+| [JDV-J252-StatutPersonnePriseChargeESMS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J252-StatutPersonnePriseChargeESMS) | JDV-J252-StatutPersonnePriseChargeESMS | 16 |
+| [JDV-J253-StatutPersonnePriseChargeUnite](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J253-StatutPersonnePriseChargeUnite) | JDV-J253-StatutPersonnePriseChargeUnite | 9 |
+| [JDV-J254-CategorieEtablissementESSMSPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J254-CategorieEtablissementESSMSPH) | JDV-J254-CategorieEtablissementESSMSPH | 24 |
+| [JDV-J255-SurspecialiteTransversale-RPPS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J255-SurspecialiteTransversale-RPPS) | JDV-J255-SurspecialiteTransversale-RPPS | 27 |
+| [JDV-J256-Pays](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J256-Pays) | JDV-J256-Pays | 217 |
+| [JDV-J257-Region](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J257-Region) | JDV-J257-Region | 27 |
+| [JDV-J258-Departement](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J258-Departement) | JDV-J258-Departement | 110 |
+| [JDV-J259-ModeFixationTarifaire-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J259-ModeFixationTarifaire-RASS) | JDV-J259-ModeFixationTarifaire-RASS | 46 |
+| [JDV-J26-ModeGestion-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J26-ModeGestion-ROR) | JDV-J26-ModeGestion-ROR | 2 |
+| [JDV-J260-TypeFermeture-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J260-TypeFermeture-RASS) | JDV-J260-TypeFermeture-RASS | 6 |
+| [JDV-J262-Sexe](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J262-Sexe) | JDV-J262-Sexe | 4 |
+| [JDV-J264-ModeEtCentreDePriseEnCharge-MDPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH) | JDV-J264-ModeEtCentreDePriseEnCharge-MDPH | 4 |
+| [JDV-J265-RoleMembreCercleDeSoins-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J265-RoleMembreCercleDeSoins-CISIS) | JDV-J265-RoleMembreCercleDeSoins-CISIS | 6 |
+| [JDV-J27-GroupeTarifaireDependance-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J27-GroupeTarifaireDependance-ROR) | JDV-J27-GroupeTarifaireDependance-ROR | 3 |
+| [JDV-J275-EMDN-UPNOS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J275-EMDN-UPNOS) | JDV-J275-EMDN-UPNOS | 16 |
+| [JDV-J28-OuvertureAnnuelle-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J28-OuvertureAnnuelle-ROR) | JDV-J28-OuvertureAnnuelle-ROR | 5 |
+| [JDV-J281-StatutsRessourcesMS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J281-StatutsRessourcesMS) | JDV-J281-StatutsRessourcesMS | 9 |
+| [JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN) | JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN | 4 |
+| [JDV-J283-PrestationsIndirects-SERAFIN](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J283-PrestationsIndirects-SERAFIN) | JDV-J283-PrestationsIndirects-SERAFIN | 35 |
+| [JDV-J284-PrestationsDirects-SERAFIN](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J284-PrestationsDirects-SERAFIN) | JDV-J284-PrestationsDirects-SERAFIN | 37 |
+| [JDV-J285-Besoins-SERAFIN](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J285-Besoins-SERAFIN) | JDV-J285-Besoins-SERAFIN | 35 |
+| [JDV-J286-ProfilUtilisateurReferentielNational-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J286-ProfilUtilisateurReferentielNational-ROR) | JDV-J286-ProfilUtilisateurReferentielNational-ROR | 11 |
+| [JDV-J29-PublicPrisEnCharge-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J29-PublicPrisEnCharge-ROR) | JDV-J29-PublicPrisEnCharge-ROR | 9 |
+| [JDV-J30-TemporaliteAccueil-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J30-TemporaliteAccueil-ROR) | JDV-J30-TemporaliteAccueil-ROR | 2 |
+| [JDV-J31-AideFinanciere-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J31-AideFinanciere-ROR) | JDV-J31-AideFinanciere-ROR | 2 |
+| [JDV-J32-TypeHabitation-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J32-TypeHabitation-ROR) | JDV-J32-TypeHabitation-ROR | 7 |
+| [JDV-J33-CompetenceSpecifique-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J33-CompetenceSpecifique-ROR) | JDV-J33-CompetenceSpecifique-ROR | 55 |
+| [JDV-J34-CategorieOrganisation-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J34-CategorieOrganisation-ROR) | JDV-J34-CategorieOrganisation-ROR | 295 |
+| [JDV-J35-SpecialisationDePriseEnCharge-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J35-SpecialisationDePriseEnCharge-ROR) | JDV-J35-SpecialisationDePriseEnCharge-ROR | 66 |
+| [JDV-J36-TypeTarif-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J36-TypeTarif-ROR) | JDV-J36-TypeTarif-ROR | 7 |
+| [JDV-J369-MotifRestrictionDiffusion-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J369-MotifRestrictionDiffusion-ROR) | JDV-J369-MotifRestrictionDiffusion-ROR | 2 |
+| [JDV-J38-ModeAcces-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J38-ModeAcces-CISIS) | JDV-J38-ModeAcces-CISIS | 3 |
+| [JDV-J39-ConditionTarifaire-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J39-ConditionTarifaire-ROR) | JDV-J39-ConditionTarifaire-ROR | 3 |
+| [JDV-J41-TypeHoraire-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J41-TypeHoraire-ROR) | JDV-J41-TypeHoraire-ROR | 11 |
+| [JDV-J42-TypeMaternite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J42-TypeMaternite-ROR) | JDV-J42-TypeMaternite-ROR | 4 |
+| [JDV-J46-TypeEvenementNotification-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J46-TypeEvenementNotification-CISIS) | JDV-J46-TypeEvenementNotification-CISIS | 19 |
+| [JDV-J47-FunctionCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J47-FunctionCode-CISIS) | JDV-J47-FunctionCode-CISIS | 15 |
+| [JDV-J50-AccessibiliteLieu-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J50-AccessibiliteLieu-ROR) | JDV-J50-AccessibiliteLieu-ROR | 6 |
+| [JDV-J52-AvailabilityStatus-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J52-AvailabilityStatus-CISIS) | JDV-J52-AvailabilityStatus-CISIS | 4 |
+| [JDV-J53-TypeRequeteGestionDossier-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J53-TypeRequeteGestionDossier-CISIS) | JDV-J53-TypeRequeteGestionDossier-CISIS | 6 |
+| [JDV-J54-Profession-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J54-Profession-ROR) | JDV-J54-Profession-ROR | 53 |
+| [JDV-J55-CategorieEG-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J55-CategorieEG-ROR) | JDV-J55-CategorieEG-ROR | 181 |
+| [JDV-J56-AuthorSpecialty-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J56-AuthorSpecialty-DMP) | JDV-J56-AuthorSpecialty-DMP | 379 |
+| [JDV-J57-ClassCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J57-ClassCode-DMP) | JDV-J57-ClassCode-DMP | 12 |
+| [JDV-J58-ConfidentialityCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J58-ConfidentialityCode-DMP) | JDV-J58-ConfidentialityCode-DMP | 6 |
+| [JDV-J59-ContentTypeCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J59-ContentTypeCode-DMP) | JDV-J59-ContentTypeCode-DMP | 100 |
+| [JDV-J60-FormatCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J60-FormatCode-DMP) | JDV-J60-FormatCode-DMP | 62 |
+| [JDV-J61-HealthcareFacilityTypeCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J61-HealthcareFacilityTypeCode-DMP) | JDV-J61-HealthcareFacilityTypeCode-DMP | 68 |
+| [JDV-J62-PracticeSettingCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J62-PracticeSettingCode-DMP) | JDV-J62-PracticeSettingCode-DMP | 11 |
+| [JDV-J64-RestrictionAudienceVIHF-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J64-RestrictionAudienceVIHF-DMP) | JDV-J64-RestrictionAudienceVIHF-DMP | 1 |
+| [JDV-J65-SubjectRole-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J65-SubjectRole-DMP) | JDV-J65-SubjectRole-DMP | 432 |
+| [JDV-J67-TraitementDocument-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J67-TraitementDocument-CISIS) | JDV-J67-TraitementDocument-CISIS | 1 |
+| [JDV-J68-ProfilAccesReferentiel-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J68-ProfilAccesReferentiel-ROR) | JDV-J68-ProfilAccesReferentiel-ROR | 14 |
+| [JDV-J71-ProfessionFonction-MSSante](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J71-ProfessionFonction-MSSante) | JDV-J71-ProfessionFonction-MSSante | 50 |
+| [JDV-J72-TypeProfessionFonction-MSSante](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J72-TypeProfessionFonction-MSSante) | JDV-J72-TypeProfessionFonction-MSSante | 2 |
+| [JDV-J73-MetierPharmacien-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J73-MetierPharmacien-RASS) | JDV-J73-MetierPharmacien-RASS | 16 |
+| [JDV-J75-TypeAutorisation-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J75-TypeAutorisation-RASS) | JDV-J75-TypeAutorisation-RASS | 41 |
+| [JDV-J76-DisciplineAutorisation-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J76-DisciplineAutorisation-RASS) | JDV-J76-DisciplineAutorisation-RASS | 41 |
+| [JDV-J77-TypeIdentifiantPersonne-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J77-TypeIdentifiantPersonne-RASS) | JDV-J77-TypeIdentifiantPersonne-RASS | 8 |
+| [JDV-J78-Civilite-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J78-Civilite-RASS) | JDV-J78-Civilite-RASS | 3 |
+| [JDV-J79-CiviliteExercice-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J79-CiviliteExercice-RASS) | JDV-J79-CiviliteExercice-RASS | 6 |
+| [JDV-J80-Sexe-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J80-Sexe-RASS) | JDV-J80-Sexe-RASS | 4 |
+| [JDV-J81-TypeDiplome-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J81-TypeDiplome-RASS) | JDV-J81-TypeDiplome-RASS | 14 |
+| [JDV-J82-Langue-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J82-Langue-RASS) | JDV-J82-Langue-RASS | 188 |
+| [JDV-J83-AutoriteEnregistrement-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J83-AutoriteEnregistrement-RASS) | JDV-J83-AutoriteEnregistrement-RASS | 28 |
+| [JDV-J85-StatutInscription-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J85-StatutInscription-RASS) | JDV-J85-StatutInscription-RASS | 4 |
+| [JDV-J86-NatCycleForm-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J86-NatCycleForm-RASS) | JDV-J86-NatCycleForm-RASS | 3 |
+| [JDV-J87-NiveauFormAcquis-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J87-NiveauFormAcquis-RASS) | JDV-J87-NiveauFormAcquis-RASS | 15 |
+| [JDV-J88-AnneeUniversitaire-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J88-AnneeUniversitaire-RASS) | JDV-J88-AnneeUniversitaire-RASS | 21 |
+| [JDV-J89-CategorieProfessionnelle-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J89-CategorieProfessionnelle-RASS) | JDV-J89-CategorieProfessionnelle-RASS | 3 |
+| [JDV-J90-AttributionParticuliere-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J90-AttributionParticuliere-RASS) | JDV-J90-AttributionParticuliere-RASS | 10 |
+| [JDV-J91-TypeSavoirFaire-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J91-TypeSavoirFaire-RASS) | JDV-J91-TypeSavoirFaire-RASS | 12 |
+| [JDV-J92-MotifFinActivite-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J92-MotifFinActivite-RASS) | JDV-J92-MotifFinActivite-RASS | 9 |
+| [JDV-J94-GenreActivite-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J94-GenreActivite-RASS) | JDV-J94-GenreActivite-RASS | 12 |
+| [JDV-J95-ModeExercice-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J95-ModeExercice-RASS) | JDV-J95-ModeExercice-RASS | 4 |
+| [JDV-J96-TypeActiviteLiberale-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J96-TypeActiviteLiberale-RASS) | JDV-J96-TypeActiviteLiberale-RASS | 6 |
+| [JDV-J97-StatutProfessionnelSSA-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J97-StatutProfessionnelSSA-RASS) | JDV-J97-StatutProfessionnelSSA-RASS | 4 |
+| [JDV-J98-StatutHospitalier-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J98-StatutHospitalier-RASS) | JDV-J98-StatutHospitalier-RASS | 19 |
+| [designation-use](https://smt.esante.gouv.fr/fhir/ValueSet/designation-use) | Designation Use | 2 |
+| [jdv-abord-veineux-central-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-abord-veineux-central-cisis) | JDV Abord Veineux Central CISIS | 5 |
+| [jdv-abord-veineux-peripherique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-abord-veineux-peripherique-cisis) | JDV Abord Veineux Peripherique CISIS | 3 |
+| [jdv-acces-artere-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-acces-artere-cisis) | JDV Acces Artere CISIS | 2 |
+| [jdv-acte-cs8-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-acte-cs8-cisis) | JDV ActeCs8 CISIS | 2 |
+| [jdv-acte-cse-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-acte-cse-cisis) | JDV Acte Cse CISIS | 1 |
+| [jdv-activite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-activite-cisis) | JDV Activite CISIS | 8 |
+| [jdv-addition-grandeur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-addition-grandeur-cisis) | JDV Addition Grandeur CISIS | 3 |
+| [jdv-age-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis) | JDV Age CISIS | 6 |
+| [jdv-age-de-survenue-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-de-survenue-cisis) | JDV Age De Survenue CISIS | 5 |
+| [jdv-aide-au-deplacement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-aide-au-deplacement-cisis) | JDV Aide Au Deplacement CISIS | 6 |
+| [jdv-antecedent-cse24-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-cse24-cisis) | JDV Antecedent Cse24 CISIS | 2 |
+| [jdv-antecedent-cse9-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-cse9-cisis) | JDV Antecedent Cse9 CISIS | 2 |
+| [jdv-appreciation-diagnostic-centre-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-appreciation-diagnostic-centre-cisis) | JDV Appreciation Diagnostic Centre CISIS | 3 |
+| [jdv-artere-anterieure-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-artere-anterieure-cisis) | JDV Artere Anterieure CISIS | 8 |
+| [jdv-artere-cervelet-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-artere-cervelet-cisis) | JDV Artere Cervelet CISIS | 4 |
+| [jdv-artere-posterieure-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-artere-posterieure-cisis) | JDV Artere Posterieure CISIS | 6 |
+| [jdv-artere-tronc-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-artere-tronc-cisis) | JDV Artere Tronc CISIS | 3 |
+| [jdv-aspect-liquide-amniotique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-aspect-liquide-amniotique-cisis) | JDV Aspect Liquide Amniotique CISIS | 5 |
+| [jdv-autre-risque-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-autre-risque-cisis) | JDV Autre Risque CISIS | 2 |
+| [jdv-avis-medical-complementaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-avis-medical-complementaire-cisis) | JDV Avis Medical Complementaire CISIS | 5 |
+| [jdv-bio-instruction-patient-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-bio-instruction-patient-cisis) | JDV Bio Instruction Patient CISIS | 6 |
+| [jdv-cas-sporadique-familial-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cas-sporadique-familial-cisis) | JDV Cas Sporadique Familial CISIS | 2 |
+| [jdv-cause-cesarienne-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cause-cesarienne-cisis) | JDV Cause Cesarienne CISIS | 3 |
+| [jdv-cdd-fa-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cdd-fa-cisis) | JDV Cdd Fa CISIS | 4 |
+| [jdv-cervelet-localisation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cervelet-localisation-cisis) | JDV Cervelet Localisation CISIS | 3 |
+| [jdv-checklist-dlu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-checklist-dlu-cisis) | JDV Checklist Dlu CISIS | 14 |
+| [jdv-checklist-fludr-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-checklist-fludr-cisis) | JDV Checklist Fludr CISIS | 2 |
+| [jdv-circonstance-deces-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-circonstance-deces-cisis) | JDV Circonstance Deces CISIS | 4 |
+| [jdv-classification-acr-1-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classification-acr-1-cisis) | JDV Classification Acr 1 CISIS | 3 |
+| [jdv-classification-acr-2-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classification-acr-2-cisis) | JDV Classification Acr 2 CISIS | 6 |
+| [jdv-classification-acr-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classification-acr-cisis) | JDV Classification Acr CISIS | 5 |
+| [jdv-classification-acr-echographie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classification-acr-echographie-cisis) | JDV Classification Acr Echographie CISIS | 5 |
+| [jdv-classification-ring-messmer-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classification-ring-messmer-cisis) | JDV Classification Ring Messmer CISIS | 4 |
+| [jdv-cliche-techniquement-insuffisant-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cliche-techniquement-insuffisant-cisis) | JDV Cliche Techniquement Insuffisant CISIS | 3 |
+| [jdv-code-probleme-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis) | JDV Code Probleme CISIS | 5 |
+| [jdv-completude-dispensation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-completude-dispensation-cisis) | JDV Completude Dispensation CISIS | 4 |
+| [jdv-conclusion-simplifiee-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conclusion-simplifiee-ccu-cisis) | JDV Conclusion Simplifiee Ccu CISIS | 4 |
+| [jdv-conduite-a-tenir-2-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-2-cisis) | JDV Conduite A Tenir 2 CISIS | 4 |
+| [jdv-contexte-activite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contexte-activite-cisis) | JDV Contexte Activite CISIS | 11 |
+| [jdv-contexte-examen-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contexte-examen-ccu-cisis) | JDV Contexte Examen Ccu CISIS | 6 |
+| [jdv-contreindication-thrombolyse-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contreindication-thrombolyse-cisis) | JDV Contrindication Thrombolyse CISIS | 28 |
+| [jdv-couverture-sociale-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-couverture-sociale-cisis) | JDV Couverture Sociale CISIS | 3 |
+| [jdv-date-consultation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-date-consultation-cisis) | JDV Date Consultation CISIS | 4 |
+| [jdv-densite-mammaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-densite-mammaire-cisis) | JDV Densite Mammaire CISIS | 4 |
+| [jdv-depistage-neonatal-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-depistage-neonatal-cisis) | Jdv Depistage Neonatal CISIS | 5 |
+| [jdv-deplacement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deplacement-cisis) | JDV Deplacement CISIS | 4 |
+| [jdv-destination-obp-sne-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-obp-sne-cisis) | JDV Destination Obp Sne CISIS | 6 |
+| [jdv-destination-transfert-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis) | JDV Destination Transfert CISIS | 3 |
+| [jdv-detail-materiel-specialise-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-detail-materiel-specialise-cisis) | JDV Detail Materiel Specialise CISIS | 2 |
+| [jdv-detail-ressource-immobiliere-utilisee-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-detail-ressource-immobiliere-utilisee-cisis) | JDV Detail Ressource Immobiliere Utilisee CISIS | 2 |
+| [jdv-developpement-psychomoteur-cs24-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-developpement-psychomoteur-cs24-cisis) | JDV Developpement Psychomoteur Cs24 CISIS | 3 |
+| [jdv-difficulte-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-difficulte-cisis) | JDV Difficulte CISIS | 3 |
+| [jdv-document-annexe-fludr-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-document-annexe-fludr-cisis) | JDV Document Annexe Fludr CISIS | 3 |
+| [jdv-duree-allaitement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-duree-allaitement-cisis) | JDV Duree Allaitement CISIS | 2 |
+| [jdv-encompassing-encounter-code-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-encompassing-encounter-code-cisis) | JDV Encompassing Encounter Code CISIS | 9 |
+| [jdv-enfant-expose-aux-ecrans-cs24-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-enfant-expose-aux-ecrans-cs24-cisis) | JDV Enfant Expose Aux Ecrans Cs24 CISIS | 3 |
+| [jdv-etat-de-conscience-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-de-conscience-cisis) | Jdv Etat De Conscience CISIS | 4 |
+| [jdv-etat-psychique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-psychique-cisis) | JDV Etat Psychique CISIS | 6 |
+| [jdv-etiologie-infarctus-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-infarctus-cisis) | JDV Etiologie Infarctus CISIS | 7 |
+| [jdv-evaluation-depression-geriatrique-resultat-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-depression-geriatrique-resultat-cisis) | JDV Evaluation Depression Geriatrique Resultat CISIS | 3 |
+| [jdv-evaluation-douleur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-douleur-cisis) | JDV Evaluation Douleur CISIS | 6 |
+| [jdv-evaluation-neurocognitive-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-neurocognitive-cisis) | JDV Evaluation Neurocognitive CISIS | 2 |
+| [jdv-evolution-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis) | JDV Evolution CISIS | 8 |
+| [jdv-examen-clinique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-clinique-cisis) | JDV Examen Clinique CISIS | 5 |
+| [jdv-examen-enfant-obligatoire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-enfant-obligatoire-cisis) | JDV Examen Enfant Obligatoire CISIS | 21 |
+| [jdv-examen-realise-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-realise-cisis) | JDV Examen Realise CISIS | 3 |
+| [jdv-facteur-de-risque-professionnel-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-facteur-de-risque-professionnel-cisis) | JDV Facteur De Risque Professionnel CISIS | 4 |
+| [jdv-facteur-de-risque-social-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-facteur-de-risque-social-cisis) | JDV Facteur De Risque Social CISIS | 3 |
+| [jdv-famille-femme-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-famille-femme-cisis) | JDV Famille Femme CISIS | 3 |
+| [jdv-famille-id-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-famille-id-cisis) | JDV Famille Id CISIS | 5 |
+| [jdv-fluide-route-code-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fluide-route-code-cisis) | JDV Fluide Route Code CISIS | 6 |
+| [jdv-fonction-etudiee-scintigraphie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fonction-etudiee-scintigraphie-cisis) | JDV Fonction Etudiee Scintigraphie CISIS | 12 |
+| [jdv-fonction-etudiee-tep-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fonction-etudiee-tep-cisis) | JDV Fonction Etudiee Tep CISIS | 8 |
+| [jdv-geste-reanimation-nouveau-ne-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-geste-reanimation-nouveau-ne-cisis) | JDV Geste Reanimation Nouveau Ne CISIS | 9 |
+| [jdv-gestion-effet-secondaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis) | JDV Gestion Effet Secondaire CISIS | 2 |
+| [jdv-gir-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gir-cisis) | JDV Gir CISIS | 6 |
+| [jdv-gravite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis) | JDV Gravite CISIS | 7 |
+| [jdv-groupe-rhesus-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-groupe-rhesus-cisis) | JDV Groupe Rhesus CISIS | 8 |
+| [jdv-handicap-deficit-dlu-dom-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-handicap-deficit-dlu-dom-cisis) | JDV Handicap Deficit Dlu Dom CISIS | 7 |
+| [jdv-handicap-deficit-dlu-ehpad-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-handicap-deficit-dlu-ehpad-cisis) | JDV Handicap Deficit Dlu Ehpad CISIS | 3 |
+| [jdv-health-status-code-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis) | JDV Health Status Code CISIS | 8 |
+| [jdv-hemisphere-lobaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hemisphere-lobaire-cisis) | JDV Hemisphere Lobaire CISIS | 5 |
+| [jdv-hemisphere-profond-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hemisphere-profond-cisis) | JDV Hemisphere Profond CISIS | 4 |
+| [jdv-hl7-condition-clinical-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-condition-clinical-cisis) | Condition Clinical Status Codes | 6 |
+| [jdv-hl7-condition-ver-status-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-condition-ver-status-cisis) | Condition Verification Status | 3 |
+| [jdv-hl7-v2-0066-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis) | hl7VS-employmentStatus | 11 |
+| [jdv-hl7-v2-0488-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0488-cisis) | hl7VS-specimenCollectionMethod | 42 |
+| [jdv-hl7-v2-0952-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0952-cisis) | Confidentiality | 6 |
+| [jdv-hl7-v3-ActEncounterCode-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActEncounterCode-cisis) | ActEncounterCode | 9 |
+| [jdv-hl7-v3-ActMood-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActMood-cisis) | ActMood | 16 |
+| [jdv-hl7-v3-ActMoodIntent-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActMoodIntent-cisis) | ActMoodIntent | 3 |
+| [jdv-hl7-v3-ActPharmacySupplyType-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPharmacySupplyType-cisis) | ActPharmacySupplyType | 4 |
+| [jdv-hl7-v3-ActPriority-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPriority-cisis) | ActPriority | 12 |
+| [jdv-hl7-v3-ActStatus-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis) | ActStatus | 7 |
+| [jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis) | ActSubstanceAdminSubstitutionCode | 2 |
+| [jdv-hl7-v3-ActSubstanceAdministrationCode-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationCode-cisis) | ActSubstanceAdministrationCode | 2 |
+| [jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis) | ActSubstanceAdministrationImmunizationCode | 3 |
+| [jdv-hl7-v3-AdministrableDrugForm-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-AdministrableDrugForm-cisis) | AdministrableDrugForm | 9 |
+| [jdv-hl7-v3-AdministrativeGender-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-AdministrativeGender-cisis) | AdministrativeGender | 3 |
+| [jdv-hl7-v3-CoverageRoleType-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-CoverageRoleType-cisis) | CoverageRoleType | 3 |
+| [jdv-hl7-v3-MediaType-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-MediaType-cisis) | MediaType | 14 |
+| [jdv-hl7-v3-ObservationInterpretation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis) | ObservationInterpretation | 39 |
+| [jdv-hl7-v3-ObservationMethod-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis) | ObservationMethod | 269 |
+| [jdv-hl7-v3-ParticipationFunction-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationFunction-cisis) | ParticipationFunction | 4 |
+| [jdv-hl7-v3-ParticipationType-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationType-cisis) | ParticipationType | 59 |
+| [jdv-hl7-v3-PersonalRelationshipRoleType-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis) | PersonalRelationshipRoleType | 108 |
+| [jdv-hl7-v3-ROIOverlayShape-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ROIOverlayShape-cisis) | ROIOverlayShape | 4 |
+| [jdv-hl7-v3-SeverityObservationCode-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-SeverityObservationCode-cisis) | SeverityObservationCode | 1 |
+| [jdv-hl7-v3-SpecimenAdditiveEntity-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-SpecimenAdditiveEntity-cisis) | SpecimenAdditiveEntity | 54 |
+| [jdv-hl7-v3-SpecimenRoleType-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-SpecimenRoleType-cisis) | SpecimenRoleType | 4 |
+| [jdv-hl7-v3-TimingEvent-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis) | TimingEvent | 18 |
+| [jdv-hl7-v3-WorkScheduleODH-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-WorkScheduleODH-cisis) | WorkScheduleODH | 9 |
+| [jdv-hl7-v3-employmentStatusODH-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-employmentStatusODH-cisis) | EmploymentStatusODH | 3 |
+| [jdv-hl7-v3-xActMoodDocumentObservation](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xActMoodDocumentObservation) | x_ActMoodDocumentObservation | 10 |
+| [jdv-hl7-v3-xBasicConfidentialityKind-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis) | x_BasicConfidentialityKind | 3 |
+| [jdv-human-substance-administration-site-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis) | JDV Human Substance Administration Site CISIS | 45 |
+| [jdv-immunization-approach-site-code-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-approach-site-code-cisis) | JDV Immunization Approach Site Code CISIS | 10 |
+| [jdv-immunization-route-code-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis) | JDV Immunization Route Code CISIS | 5 |
+| [jdv-impact-mutation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-impact-mutation-cisis) | JDV Impact Mutation CISIS | 2 |
+| [jdv-importance-clinique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-importance-clinique-cisis) | JDV Importance Clinique CISIS | 4 |
+| [jdv-imputabilite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis) | JDV Imputabilite CISIS | 4 |
+| [jdv-injection-pdc-tep-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-injection-pdc-tep-cisis) | JDV Injection Pdc Tep CISIS | 2 |
+| [jdv-interpretation-ecg-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-interpretation-ecg-cisis) | JDV Interpretation Ecg CISIS | 2 |
+| [jdv-investigation-realisee-aunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-aunv-cisis) | JDV Investigation Realisee Aunv CISIS | 5 |
+| [jdv-investigation-realisee-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-cisis) | JDV Investigation Realisee CISIS | 9 |
+| [jdv-investigation-realisee-eunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-eunv-cisis) | JDV Investigation Realisee Eunv CISIS | 9 |
+| [jdv-j301-finess-statut-juridique-niv1-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess) | Jdv J301 Finess Statut Juridique Niv1 Finess | 3 |
+| [jdv-j302-finess-statut-juridique-niv2-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess) | Jdv J302 Finess Statut Juridique Niv2 Finess | 5 |
+| [jdv-j303-finess-statut-juridique-niv3-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess) | Jdv J303 Finess Statut Juridique Niv3 Finess | 22 |
+| [jdv-j304-finess-statut-juridique-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess) | Jdv J304 Finess Statut Juridique Finess | 69 |
+| [jdv-j307-categorie-entite-geographique-exercice-niv1-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess) | Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess | 7 |
+| [jdv-j308-categorie-entite-geographique-exercice-niv2-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess) | Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess | 19 |
+| [jdv-j309-categorie-entite-geographique-exercice-niv3-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess) | Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess | 81 |
+| [jdv-j310-categorie-entite-geographique-exercice-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess) | Jdv J310 Categorie Entite Geographique Exercice Finess | 315 |
+| [jdv-j318-activite-enseignement-regulee-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j318-activite-enseignement-regulee-finess) | Jdv J318 Activite Enseignement Regulee Finess | 55 |
+| [jdv-j319-activite-enseignement-regulee-niv1-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess) | Jdv J319 Activite Enseignement Regulee Niv1 Finess | 1 |
+| [jdv-j320-activite-enseignement-regulee-niv2-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess) | Jdv J320 Activite Enseignement Regulee Niv2 Finess | 1 |
+| [jdv-j321-activite-enseignement-regulee-niv3-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess) | Jdv J321 Activite Enseignement Regulee Niv3 Finess | 4 |
+| [jdv-j323-activite-sociale-regulee-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess) | Jdv J323 Activite Sociale Regulee Finess | 133 |
+| [jdv-j324-activite-sociale-regulee-niv1-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess) | Jdv J324 Activite Sociale Regulee Niv1 Finess | 1 |
+| [jdv-j325-activite-sociale-regulee-niv2-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess) | Jdv J325 Activite Sociale Regulee Niv2 Finess | 7 |
+| [jdv-j326-activite-sociale-regulee-niv3-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess) | Jdv J326 Activite Sociale Regulee Niv3 Finess | 23 |
+| [jdv-j328-public-activite-smsse-regulee-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j328-public-activite-smsse-regulee-finess) | Jdv J328 Public Activite Smsse Regulee Finess | 128 |
+| [jdv-j329-public-activite-smsse-regulee-niv1-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess) | Jdv J329 Public Activite Smsse Regulee Niv1 Finess | 8 |
+| [jdv-j330-public-activite-smsse-regulee-niv2-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess) | Jdv J330 Public Activite Smsse Regulee Niv2 Finess | 21 |
+| [jdv-j366-statut-bilan-projet-personnalise-ms](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms) | Jdv J366 Statut Bilan Projet Personnalise Ms | 3 |
+| [jdv-j367-type-projet-personnalise-ms](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms) | Jdv J367 Type Projet Personnalise Ms | 7 |
+| [jdv-j368-categorie-etablissement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis) | Jdv J368 Categorie Etablissement Cisis | 177 |
+| [jdv-j370-type-contrat-sejour-ms](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms) | Jdv J370 Type Contrat Sejour Ms | 2 |
+| [jdv-j376-public-activite-smsse-regulee-rass](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass) | Jdv J376 Public Activite Smsse Regulee Rass | 81 |
+| [jdv-j377-categorie-entite-geographique-exercice-ror](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror) | Jdv J377 Categorie Entite Geographique Exercice Ror | 189 |
+| [jdv-j379-activite-sociale-regulee-rass](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j379-activite-sociale-regulee-rass) | Jdv J379 Activite Sociale Regulee Rass | 89 |
+| [jdv-j380-categorie-entite-geographique-exercice-rass](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass) | Jdv J380 Categorie Entite Geographique Exercice Rass | 255 |
+| [jdv-j383-motif-cloture-exercice-professionnel-epars](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars) | Jdv J383 Motif Cloture Exercice Professionnel Epars | 6 |
+| [jdv-j384-role-membre-famille-ms](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j384-role-membre-famille-ms) | Jdv J384 Role Membre Famille Ms | 5 |
+| [jdv-j385-composition-foyer-ms](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j385-composition-foyer-ms) | Jdv J385 Composition Foyer Ms | 8 |
+| [jdv-j386-type-enseignement-specialise-ms](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-type-enseignement-specialise-ms) | Jdv J386 Type Enseignement Specialise Ms | 17 |
+| [jdv-j387-role-participant-ms](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j387-role-participant-ms) | Jdv J387 Role Participant Ms | 2 |
+| [jdv-jour-semaine-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis) | JDV Jour Semaine CISIS | 7 |
+| [jdv-juridique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-juridique-cisis) | JDV Juridique CISIS | 3 |
+| [jdv-lateralite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-cisis) | JDV Lateralite CISIS | 4 |
+| [jdv-lateralite-manuelle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-manuelle-cisis) | JDV Lateralite Manuelle CISIS | 4 |
+| [jdv-lateralite-technique-imagerie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-technique-imagerie-cisis) | JDV Lateralite Technique Imagerie CISIS | 2 |
+| [jdv-lien-assure-beneficiaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lien-assure-beneficiaire-cisis) | JDV Lien Assure Beneficiaire CISIS | 3 |
+| [jdv-lieu-accouchement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lieu-accouchement-cisis) | JDV Lieu Accouchement CISIS | 3 |
+| [jdv-lieu-de-vie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lieu-de-vie-cisis) | JDV Lieu De Vie CISIS | 2 |
+| [jdv-localisation-anatomique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-anatomique-cisis) | JDV Localisation Anatomique CISIS | 357 |
+| [jdv-localisation-anesthesie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-anesthesie-cisis) | JDV Localisation Anesthesie CISIS | 4 |
+| [jdv-localisation-hemorragie-cerebrale-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-hemorragie-cerebrale-cisis) | JDV Localisation Hemorragie Cerebrale CISIS | 6 |
+| [jdv-localisation-infarctus-cerebral-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis) | JDV Localisation Infarctus Cerebral CISIS | 6 |
+| [jdv-localisation-prelevement-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-prelevement-ccu-cisis) | JDV Localisation Prelevement Ccu CISIS | 3 |
+| [jdv-localisation-thrombose-veineuse-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-thrombose-veineuse-cisis) | JDV Localisation Thrombose Veineuse CISIS | 10 |
+| [jdv-malformation-antenatale-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-malformation-antenatale-cisis) | JDV Malformation Antenatale CISIS | 3 |
+| [jdv-mediatype-corps-cda-non-structure-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mediatype-corps-cda-non-structure-cisis) | Jdv Mediatype Corps Cda Non Structure CISIS | 5 |
+| [jdv-mesure-associee-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-associee-cisis) | JDV Mesure Associee CISIS | 5 |
+| [jdv-mesure-protection-conduite-automobile-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-protection-conduite-automobile-cisis) | JDV Mesure Protection Conduite Automobile CISIS | 3 |
+| [jdv-methode-accouchement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-accouchement-cisis) | JDV Methode Accouchement CISIS | 4 |
+| [jdv-methode-preparation-echantillon-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-preparation-echantillon-cisis) | JDV Methode Preparation Echantillon CISIS | 5 |
+| [jdv-milieu-cytologie-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-milieu-cytologie-ccu-cisis) | JDV Milieu Cytologie Ccu CISIS | 6 |
+| [jdv-modalite-entree-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-cisis) | JDV Modalite Entree CISIS | 4 |
+| [jdv-modalite-entree-esms-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-esms-cisis) | JDV Modalite Entree ESMS CISIS | 4 |
+| [jdv-modalite-sortie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-cisis) | JDV Modalite Sortie CISIS | 6 |
+| [jdv-modalite-sortie-esms-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-sortie-esms-cisis) | JDV Modalite Sortie ESMS CISIS | 5 |
+| [jdv-mode-accouchement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-accouchement-cisis) | JDV Mode Accouchement CISIS | 4 |
+| [jdv-mode-administration-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-administration-cisis) | JDV Mode Administration CISIS | 6 |
+| [jdv-mode-de-transport-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-transport-cisis) | JDV Mode De Transport CISIS | 14 |
+| [jdv-mode-de-vie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-vie-cisis) | JDV Mode De Vie CISIS | 3 |
+| [jdv-mode-debut-travail-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-debut-travail-cisis) | JDV Mode Debut Travail CISIS | 3 |
+| [jdv-mode-naissance-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-naissance-cisis) | JDV Mode Naissance CISIS | 4 |
+| [jdv-mode-sortie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-cisis) | JDV Mode Sortie CISIS | 10 |
+| [jdv-mode-sortie-obp-scm-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-obp-scm-cisis) | JDV Mode Sortie Obp Scm CISIS | 4 |
+| [jdv-mode-sortie-obp-sem-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-obp-sem-cisis) | JDV Mode Sortie Obp Sem CISIS | 4 |
+| [jdv-mode-sortie-obp-sne-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-obp-sne-cisis) | JDV Mode Sortie Obp Sne CISIS | 4 |
+| [jdv-mode-sortie-obp-snm-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-obp-snm-cisis) | JDV Mode Sortie Obp Snm CISIS | 4 |
+| [jdv-modele-document-cda-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis) | Jdv Modele Document CDA CISIS | 56 |
+| [jdv-modele-document-cda-non-structure-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-non-structure-cisis) | Jdv Modele Document CDA Non Structure CISIS | 1 |
+| [jdv-modificateur-topographique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis) | JDV Modificateur Topographique CISIS | 46 |
+| [jdv-morphologie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-morphologie-cisis) | JDV Morphologie CISIS | 0 |
+| [jdv-motif-consultation-ophtalmologique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-consultation-ophtalmologique-cisis) | JDV Motif Consultation Ophtalmologique CISIS | 4 |
+| [jdv-motif-diagnostic-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-diagnostic-cisis) | JDV Motif Diagnostic CISIS | 3 |
+| [jdv-motif-echographie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-echographie-cisis) | JDV Motif Echographie CISIS | 4 |
+| [jdv-motif-mise-a-jour-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-mise-a-jour-cisis) | JDV Motif Mise A Jour CISIS | 10 |
+| [jdv-motif-non-realisation-evenement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-non-realisation-evenement-cisis) | JDV Motif Non Realisation Evenement CISIS | 6 |
+| [jdv-nature-discussion-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nature-discussion-cisis) | JDV Nature Discussion CISIS | 2 |
+| [jdv-nature-fraction-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nature-fraction-cisis) | JDV Nature Fraction CISIS | 2 |
+| [jdv-nature-materiel-etudie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nature-materiel-etudie-cisis) | JDV Nature Materiel Etudie CISIS | 8 |
+| [jdv-niveau-dependance-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-niveau-dependance-cisis) | JDV Niveau Dependance CISIS | 4 |
+| [jdv-niveau-etude-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-niveau-etude-cisis) | JDV Niveau Etude CISIS | 5 |
+| [jdv-nvpo-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nvpo-cisis) | JDV Nvpo CISIS | 6 |
+| [jdv-objectif-activite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-objectif-activite-cisis) | JDV Objectif Activite CISIS | 12 |
+| [jdv-obp-test-audition-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-obp-test-audition-cisis) | JDV Obp Test Audition CISIS | 5 |
+| [jdv-observation-etat-patient-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis) | JDV Observation Etat Patient CISIS | 15 |
+| [jdv-oeil-examine-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-oeil-examine-cisis) | JDV Oeil Examine CISIS | 3 |
+| [jdv-orientation-base-du-prisme-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-orientation-base-du-prisme-cisis) | JDV Orientation Base Du Prisme CISIS | 4 |
+| [jdv-origine-effet-indesirable-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis) | JDV Origine Effet Indesirable CISIS | 10 |
+| [jdv-participant-additionnel-resultat-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-additionnel-resultat-cisis) | JDV Participant Additionnel Resultat CISIS | 5 |
+| [jdv-participant-resultat-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-participant-resultat-cisis) | JDV Participant Resultat CISIS | 3 |
+| [jdv-patient-adresse-par-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patient-adresse-par-cisis) | JDV Patient adresse par CISIS | 14 |
+| [jdv-phase-cancer-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-phase-cancer-cisis) | JDV Phase Cancer CISIS | 2 |
+| [jdv-polypathologies-avc-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-polypathologies-avc-cisis) | JDV Polypathologies Avc CISIS | 5 |
+| [jdv-presentation-foetale-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-presentation-foetale-cisis) | JDV Presentation Foetale CISIS | 9 |
+| [jdv-prise-en-charge-reguliere-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-prise-en-charge-reguliere-cisis) | JDV Prise En Charge Reguliere CISIS | 2 |
+| [jdv-prise-en-charge-specifique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-prise-en-charge-specifique-cisis) | JDV Prise En Charge Specifique CISIS | 2 |
+| [jdv-profession-exposee-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-exposee-cisis) | JDV Profession Exposee CISIS | 10 |
+| [jdv-profession-personnel-activite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-personnel-activite-cisis) | JDV Profession Personnel Activite CISIS | 12 |
+| [jdv-progression-cancer-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-progression-cancer-cisis) | JDV Progression Cancer CISIS | 3 |
+| [jdv-prothese-objet-personnel-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-prothese-objet-personnel-cisis) | JDV Prothese Objet Personnel CISIS | 5 |
+| [jdv-qualification-fraction-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-qualification-fraction-cisis) | JDV Qualification Fraction CISIS | 2 |
+| [jdv-raison-absence-etiologie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-raison-absence-etiologie-cisis) | JDV Raison Absence Etiologie CISIS | 3 |
+| [jdv-raison-non-realisation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-raison-non-realisation-cisis) | JDV Raison Non Realisation CISIS | 2 |
+| [jdv-rcp-appareil-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-appareil-cisis) | JDV RCP Appareil CISIS | 14 |
+| [jdv-readaptation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-readaptation-cisis) | JDV Readaptation CISIS | 4 |
+| [jdv-realisation-activite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis) | JDV Realisation Activite CISIS | 4 |
+| [jdv-recherche-aghbs-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-recherche-aghbs-cisis) | JDV Recherche Aghbs CISIS | 3 |
+| [jdv-reference-range-applies-to-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-reference-range-applies-to-cisis) | JDV Reference Range Applies To CISIS | 3 |
+| [jdv-region-anatomique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-region-anatomique-cisis) | JDV Region Anatomique CISIS | 10 |
+| [jdv-registre-ern-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-registre-ern-cisis) | JDV Registre Ern CISIS | 26 |
+| [jdv-rencontre-cs8-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rencontre-cs8-cisis) | JDV Rencontre Cs8 CISIS | 3 |
+| [jdv-rencontre-cs9-cs24-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rencontre-cs9-cs24-cisis) | JDV Rencontre Cs9 Cs24 CISIS | 3 |
+| [jdv-reperage-trouble-neurodeveloppement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-reperage-trouble-neurodeveloppement-cisis) | JDV Reperage Trouble Neurodeveloppement CISIS | 2 |
+| [jdv-reprise-professionnelle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-reprise-professionnelle-cisis) | JDV Reprise Professionnelle CISIS | 2 |
+| [jdv-ressource-utilisee-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ressource-utilisee-cisis) | JDV Ressource Utilisee CISIS | 4 |
+| [jdv-resultat-comparaison-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-comparaison-cisis) | JDV Resultat Comparaison CISIS | 3 |
+| [jdv-resultat-depistage-acide-ascorbique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-acide-ascorbique-cisis) | JDV Resultat Depistage Acide Ascorbique CISIS | 3 |
+| [jdv-resultat-depistage-bilirubinemie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-bilirubinemie-cisis) | JDV Resultat Depistage Bilirubinemie CISIS | 3 |
+| [jdv-resultat-depistage-bilirubinurie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-bilirubinurie-cisis) | JDV Resultat Depistage Bilirubinurie CISIS | 4 |
+| [jdv-resultat-depistage-cetonemie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cetonemie-cisis) | JDV Resultat Depistage Cetonemie CISIS | 2 |
+| [jdv-resultat-depistage-cholesterol-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cholesterol-cisis) | JDV Resultat Depistage Cholesterol CISIS | 2 |
+| [jdv-resultat-depistage-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cisis) | JDV Resultat Depistage CISIS | 4 |
+| [jdv-resultat-depistage-corps-cetoniques-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-corps-cetoniques-cisis) | JDV Resultat Depistage Corps Cetoniques CISIS | 4 |
+| [jdv-resultat-depistage-crp-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-crp-cisis) | JDV Resultat Depistage Crp CISIS | 3 |
+| [jdv-resultat-depistage-glucose-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-glucose-cisis) | JDV Resultat Depistage Glucose CISIS | 2 |
+| [jdv-resultat-depistage-glycemie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-glycemie-cisis) | JDV Resultat Depistage Glycemie CISIS | 3 |
+| [jdv-resultat-depistage-hematurie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-hematurie-cisis) | JDV Resultat Depistage Hematurie CISIS | 7 |
+| [jdv-resultat-depistage-leucocyturie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-leucocyturie-cisis) | JDV Resultat Depistage Leucocyturie CISIS | 4 |
+| [jdv-resultat-depistage-nitriturie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-nitriturie-cisis) | JDV Resultat Depistage Nitriturie CISIS | 3 |
+| [jdv-resultat-depistage-proteinurie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-proteinurie-cisis) | JDV Resultat Depistage Proteinurie CISIS | 2 |
+| [jdv-resultat-depistage-rupture-membrane-ph-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis) | JDV Resultat Depistage Rupture Membrane Ph CISIS | 3 |
+| [jdv-resultat-depistage-surdite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-surdite-cisis) | JDV Resultat Depistage Surdite CISIS | 2 |
+| [jdv-resultat-depistage-urobilinogenurie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-urobilinogenurie-cisis) | JDV Resultat Depistage Urobilinogenurie CISIS | 2 |
+| [jdv-resultat-examen-cytologique-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-examen-cytologique-ccu-cisis) | JDV Resultat Examen Cytologique Ccu CISIS | 19 |
+| [jdv-resultat-question-evaluation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-question-evaluation-cisis) | JDV Resultat Question Evaluation CISIS | 4 |
+| [jdv-resultat-recherche-hpv-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-recherche-hpv-ccu-cisis) | JDV Resultat Recherche Hpv Ccu CISIS | 4 |
+| [jdv-risque-pour-entourage-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-risque-pour-entourage-cisis) | JDV Risque Pour Entourage CISIS | 4 |
+| [jdv-risque-pour-usager-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-risque-pour-usager-cisis) | JDV Risque Pour Usager CISIS | 3 |
+| [jdv-route-of-administration-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-route-of-administration-cisis) | JDV Route Of Administration CISIS | 83 |
+| [jdv-score-asa-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-asa-cisis) | JDV Score Asa CISIS | 6 |
+| [jdv-score-braden-resultat-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-resultat-cisis) | JDV Score Braden Resultat CISIS | 4 |
+| [jdv-score-cormack-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-cormack-cisis) | JDV Score Cormack CISIS | 4 |
+| [jdv-score-duke-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-duke-cisis) | JDV Score Duke CISIS | 4 |
+| [jdv-score-fisher-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-fisher-cisis) | JDV Score Fisher CISIS | 4 |
+| [jdv-score-glasgow-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-glasgow-cisis) | JDV Score Glasgow CISIS | 4 |
+| [jdv-score-mallampati-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-mallampati-cisis) | JDV Score Mallampati CISIS | 4 |
+| [jdv-sedentarite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sedentarite-cisis) | JDV Sedentarite CISIS | 4 |
+| [jdv-severite-observation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis) | JDV Severite Observation CISIS | 6 |
+| [jdv-site-intervention-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-site-intervention-cisis) | JDV Site Intervention CISIS | 8 |
+| [jdv-situation-matrimoniale-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-matrimoniale-cisis) | Jdv Situation Matrimoniale CISIS | 8 |
+| [jdv-situation-medicale-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-medicale-cisis) | JDV Situation Medicale CISIS | 2 |
+| [jdv-soin-onco-de-support-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-soin-onco-de-support-cisis) | JDV Soin Onco De Support CISIS | 11 |
+| [jdv-specimen-type-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis) | JDV Specimen Type CISIS | 334 |
+| [jdv-static-sem-procedure-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-static-sem-procedure-cisis) | JDV Static Sem Procedure CISIS | 3 |
+| [jdv-statut-actuel-diagnostic-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-actuel-diagnostic-cisis) | JDV Statut Actuel Diagnostic CISIS | 6 |
+| [jdv-statut-cas-presente-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-cas-presente-cisis) | JDV Statut Cas Presente CISIS | 2 |
+| [jdv-statut-document-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-document-cisis) | JDV Statut Document CISIS | 4 |
+| [jdv-statut-evt-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-evt-cisis) | JDV Statut Evt CISIS | 3 |
+| [jdv-statut-grossesse-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-grossesse-cisis) | JDV Statut Grossesse CISIS | 3 |
+| [jdv-statut-quorum-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-quorum-cisis) | JDV Statut Quorum CISIS | 3 |
+| [jdv-statut-resultat-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-resultat-cisis) | JDV Statut Resultat CISIS | 3 |
+| [jdv-statut-tabagique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-tabagique-cisis) | JDV Statut Tabagique CISIS | 7 |
+| [jdv-support-nutritionnel-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-support-nutritionnel-cisis) | JDV Support Nutritionnel CISIS | 3 |
+| [jdv-taille-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-taille-cisis) | JDV Taille CISIS | 2 |
+| [jdv-technique-diagnostic-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-diagnostic-cisis) | JDV Technique Diagnostic CISIS | 5 |
+| [jdv-territoire-infarctus-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-territoire-infarctus-cisis) | JDV Territoire Infarctus CISIS | 4 |
+| [jdv-tnm-ptnm-pm-2-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pm-2-cisis) | JDV Tnm Ptnm Pm 2 CISIS | 3 |
+| [jdv-tnm-ptnm-pm-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pm-cisis) | JDV Tnm Ptnm Pm CISIS | 3 |
+| [jdv-tnm-ptnm-pn-1-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pn-1-cisis) | JDV Tnm Ptnm Pn 1 CISIS | 3 |
+| [jdv-tnm-ptnm-pn-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pn-cisis) | JDV Tnm Ptnm Pn CISIS | 7 |
+| [jdv-tnm-ptnm-pt-1-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pt-1-cisis) | JDV Tnm Ptnm Pt 1 CISIS | 6 |
+| [jdv-tnm-ptnm-pt-2-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pt-2-cisis) | JDV Tnm Ptnm Pt 2 CISIS | 7 |
+| [jdv-tnm-ptnm-pt-3-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pt-3-cisis) | JDV Tnm Ptnm Pt 3 CISIS | 9 |
+| [jdv-topo-trouble-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-topo-trouble-cisis) | JDV Topo Trouble CISIS | 4 |
+| [jdv-traite-nontraite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traite-nontraite-cisis) | JDV Traite Nontraite CISIS | 2 |
+| [jdv-traitement-preventif-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-preventif-cisis) | JDV Traitement Preventif CISIS | 2 |
+| [jdv-traitement-soins-frcp-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis) | JDV Traitement Soins Frcp CISIS | 10 |
+| [jdv-traitement-suivi-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-suivi-cisis) | JDV Traitement Suivi CISIS | 7 |
+| [jdv-transfert-mutation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-transfert-mutation-cisis) | JDV Transfert Mutation CISIS | 3 |
+| [jdv-type-accompagnement-sociopro-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-accompagnement-sociopro-cisis) | JDV Type Accompagnement Sociopro CISIS | 4 |
+| [jdv-type-acte-eunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-acte-eunv-cisis) | JDV Type Acte Eunv CISIS | 5 |
+| [jdv-type-acte-post-partum-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-acte-post-partum-cisis) | JDV Type Acte Post Partum CISIS | 7 |
+| [jdv-type-allaitement-nouveau-ne-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-allaitement-nouveau-ne-cisis) | JDV Type Allaitement Nouveau Ne CISIS | 3 |
+| [jdv-type-analgesie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-analgesie-cisis) | JDV Type Analgesie CISIS | 6 |
+| [jdv-type-anesthesie-apres-naissance-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-anesthesie-apres-naissance-cisis) | JDV Type Anesthesie Apres Naissance CISIS | 5 |
+| [jdv-type-anesthesie-avant-naissance-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-anesthesie-avant-naissance-cisis) | JDV Type Anesthesie Avant Naissance CISIS | 6 |
+| [jdv-type-anesthesie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-anesthesie-cisis) | JDV Type Anesthesie CISIS | 8 |
+| [jdv-type-conclusion-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-conclusion-cisis) | JDV Type Conclusion CISIS | 5 |
+| [jdv-type-de-distance-de-visualisation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-distance-de-visualisation-cisis) | JDV Type De Distance De Visualisation CISIS | 3 |
+| [jdv-type-de-lentille-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-lentille-cisis) | JDV Type De Lentille CISIS | 3 |
+| [jdv-type-de-prisme-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-prisme-cisis) | JDV Type De Prisme CISIS | 2 |
+| [jdv-type-de-suivi-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-suivi-cisis) | JDV Type De Suivi CISIS | 4 |
+| [jdv-type-de-verre-prescrit-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-verre-prescrit-cisis) | JDV Type De Verre Prescrit CISIS | 7 |
+| [jdv-type-dispositif-oculaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-dispositif-oculaire-cisis) | JDV Type Dispositif Oculaire CISIS | 2 |
+| [jdv-type-dossier-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-dossier-cisis) | JDV Type Dossier CISIS | 4 |
+| [jdv-type-evaluation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evaluation-cisis) | JDV Type Evaluation CISIS | 10 |
+| [jdv-type-evenement-indesirable-previsible-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis) | JDV Type Evenement Indesirable Previsible CISIS | 14 |
+| [jdv-type-evenement-ssiad-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-ssiad-cisis) | JDV Type Evenement Ssiad CISIS | 8 |
+| [jdv-type-garde-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-garde-cisis) | JDV Type Garde CISIS | 3 |
+| [jdv-type-intervention-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-intervention-cisis) | JDV Type Intervention CISIS | 3 |
+| [jdv-type-intervention-voie-basse-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-intervention-voie-basse-cisis) | JDV Type Intervention Voie Basse CISIS | 9 |
+| [jdv-type-intubation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-intubation-cisis) | JDV Type Intubation CISIS | 3 |
+| [jdv-type-lecture-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-lecture-cisis) | JDV Type Lecture CISIS | 2 |
+| [jdv-type-mammographie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-mammographie-cisis) | JDV Type Mammographie CISIS | 3 |
+| [jdv-type-motorisation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-motorisation-cisis) | JDV Type Motorisation CISIS | 3 |
+| [jdv-type-presentation-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-presentation-cisis) | JDV Type Presentation CISIS | 3 |
+| [jdv-type-prise-en-charge-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-prise-en-charge-cisis) | JDV Type Prise En Charge CISIS | 7 |
+| [jdv-type-produit-sanguin-labile-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-produit-sanguin-labile-cisis) | JDV Type Produit Sanguin Labile CISIS | 4 |
+| [jdv-type-rencontre-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-rencontre-cisis) | JDV Type Rencontre CISIS | 2 |
+| [jdv-type-rencontre-obp-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-rencontre-obp-cisis) | JDV Type Rencontre Obp CISIS | 4 |
+| [jdv-type-resultat-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-resultat-cisis) | JDV Type Resultat CISIS | 5 |
+| [jdv-type-service-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-service-cisis) | JDV Type Service CISIS | 5 |
+| [jdv-type-sonde-gastrique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-sonde-gastrique-cisis) | JDV Type Sonde Gastrique CISIS | 2 |
+| [jdv-type-systeme-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-systeme-cisis) | Jdv Type Systeme CISIS | 5 |
+| [jdv-type-traitement-frcp-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-frcp-cisis) | JDV Type Traitement Frcp CISIS | 18 |
+| [jdv-type-traitement-iv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-iv-cisis) | JDV Type Traitement Iv CISIS | 2 |
+| [jdv-type-traitement-pps-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-pps-cisis) | JDV Type Traitement Pps CISIS | 15 |
+| [jdv-ufcv-composant-prothese-valvulaire-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-composant-prothese-valvulaire-cisis) | JDV UFCV Composant Prothese Valvulaire CISIS | 2 |
+| [jdv-ufcv-connexion-sonde-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-connexion-sonde-cisis) | JDV UFCV Connexion Sonde CISIS | 8 |
+| [jdv-ufcv-effet-inr-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-effet-inr-cisis) | JDV UFCV Effet INR CISIS | 2 |
+| [jdv-ufcv-lateralite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-lateralite-cisis) | JDV UFCV Lateralite CISIS | 2 |
+| [jdv-ufcv-localisation-defibrillateur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-localisation-defibrillateur-cisis) | JDV UFCV Localisation Defibrillateur CISIS | 3 |
+| [jdv-ufcv-localisation-sonde-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-localisation-sonde-cisis) | JDV UFCV Localisation Sonde CISIS | 11 |
+| [jdv-ufcv-materiel-implante-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-materiel-implante-cisis) | JDV UFCV Materiel Implente CISIS | 7 |
+| [jdv-ufcv-modele-valve-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-modele-valve-cisis) | JDV UFCV Modele Valve CISIS | 4 |
+| [jdv-ufcv-motif-implant-endoprothese-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-motif-implant-endoprothese-cisis) | JDV UFCV Motif Implant Endoprothese CISIS | 4 |
+| [jdv-ufcv-polarite-sonde-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-polarite-sonde-cisis) | JDV UFCV Polarite Sonde CISIS | 4 |
+| [jdv-ufcv-stade-nyha-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-stade-nyha-cisis) | JDV UFCV Stade Nyha CISIS | 4 |
+| [jdv-ufcv-type-dispositif-cardiaque-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-type-dispositif-cardiaque-cisis) | JDV UFCV Type Dispositif Cardiaque CISIS | 3 |
+| [jdv-ufcv-type-endoprothese-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-type-endoprothese-cisis) | JDV UFCV Type Endoprothese CISIS | 4 |
+| [jdv-ufcv-type-valve-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-type-valve-cisis) | JDV UFCV Type Valve CISIS | 4 |
+| [jdv-ufcv-voie-abord-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-voie-abord-cisis) | JDV UFCV Voie Abord CISIS | 3 |
+| [jdv-usage-drogue-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-usage-drogue-cisis) | JDV Usage Drogue CISIS | 2 |
+| [jdv-vie-en-collectivite-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-vie-en-collectivite-cisis) | JDV Vie En Collectivite CISIS | 5 |
+| [jdv-voie-abord-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-voie-abord-cisis) | JDV Voie Abord CISIS | 3 |
+| [vs-atc-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-atc-all) | vs-atc-all | 7055 |
+| [vs-bdpm-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-bdpm-all) | vs-bdpm-all | 41219 |
+| [vs-edqm-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-edqm-all) | vs-edqm-all | 1297 |
+| [vs-nuva-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-nuva-all) | vs-nuva-all | 1927 |
+| [vs-tre-r73-espic-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r73-espic-all) | Vs Tre R73 Espic All | 9 |
+
+</details>
