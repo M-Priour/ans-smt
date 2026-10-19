@@ -1,6 +1,6 @@
 # Rapport $expand — ValueSets SMT ANS
 
-**Date :** 2026-10-12 14:21 UTC  
+**Date :** 2026-10-19 12:01 UTC  
 **Source :** https://smt.esante.gouv.fr/fhir  
 **Périmètre :** ValueSets `status=active`
 
@@ -32,7 +32,7 @@
 | `terminologie-cip_ucd` | 1 |
 | `terminologie-sms?vs|20241114120000` | 1 |
 | `TRE-R265-PrestationPilotageSerafin` | 1 |
-| `[f62760c5-1d57-4587-8cb7-ce5000fe9f29]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.` | 1 |
+| `[f8e0da29-9c7d-4f34-95d0-910002d2540e]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.` | 1 |
 | `allergyintolerance-clinical` | 1 |
 | `codesystem-allergy-intolerance-category.html` | 1 |
 | `allergy-intolerance-criticality` | 1 |
@@ -50,7 +50,7 @@
 
 ### `LOINC is not indexed` (70)
 
-> [4c9b951c-84ad-4645-b5e5-05b2a1243e1a]: LOINC is not indexed!
+> [17791984-d4b7-498b-afde-00fad05723e6]: LOINC is not indexed!
 
 - [JDV-J07-XdsTypeCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J07-XdsTypeCode-CISIS) — JDV-J07-XdsTypeCode-CISIS
 - [JDV-J154-TypeGlucose-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J154-TypeGlucose-ENS) — JDV-J154-TypeGlucose-ENS
@@ -125,7 +125,7 @@
 
 ### `http://hl7.org/fhir/sid/icd-10` (37)
 
-> [00e8807c-b30a-4c63-9a64-9473408704fd]: A usable code system with URL http://hl7.org/fhir/sid/icd-10 could not be resolved.
+> [6250c3e3-cd9e-492d-b0aa-1345dc158401]: A usable code system with URL http://hl7.org/fhir/sid/icd-10 could not be resolved.
 
 - [jdv-anomalie-croissance-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-anomalie-croissance-cisis) — JDV Anomalie Croissance CISIS
 - [jdv-antecedant-medical-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedant-medical-cisis) — JDV Antecedant Medical CISIS
@@ -167,7 +167,7 @@
 
 ### `http://dicom.nema.org/resources/ontology/DCM` (8)
 
-> [b37e4f77-d23a-4502-8e35-49d7be2fc3e7]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCM could not be resolved.
+> [14a085e7-83d7-4d79-93bc-6bdeda3596f8]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCM could not be resolved.
 
 - [jdv-conduite-a-tenir-1-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-1-cisis) — JDV Conduite A Tenir 1 CISIS
 - [jdv-conduite-a-tenir-3-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-3-cisis) — JDV Conduite A Tenir 3 CISIS
@@ -180,7 +180,7 @@
 
 ### `https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite` (6)
 
-> [3057b1d0-97b9-4d97-a63b-dcfce6ece687]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite could not be resolved.
+> [c3182b01-6274-451d-b734-d759a8985224]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite could not be resolved.
 
 - [jdv-j287-type-autorite-regulation-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess) — Jdv J287 Type Autorite Regulation Finess
 - [jdv-j358-type-autorite-enregistrement-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j358-type-autorite-enregistrement-finess) — Jdv J358 Type Autorite Enregistrement Finess
@@ -191,7 +191,7 @@
 
 ### `http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips` (6)
 
-> [6d7b2db8-b750-4217-835b-b2c4f08531cf]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved.
+> [caaa69bd-a8f9-4875-9a8e-c3d2b9576427]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved.
 
 - [jdv-absent-or-unknown-allergy-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis) — JDV Absent Or Unknown Allergy CISIS
 - [jdv-absent-or-unknown-devices-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis) — JDV Absent Or Unknown Devices CISIS
@@ -202,7 +202,7 @@
 
 ### `http://www.whocc.no/atc` (6)
 
-> [57067840-d7db-4873-aa47-39b295cc1778]: A usable code system with URL http://www.whocc.no/atc could not be resolved.
+> [a569ff26-5bbc-41c8-8d23-8c82f2172671]: A usable code system with URL http://www.whocc.no/atc could not be resolved.
 
 - [jdv-allergie-vaccin-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis) — JDV Allergie Vaccin CISIS
 - [jdv-classe-therapie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classe-therapie-cisis) — JDV Classe Therapie CISIS
@@ -213,7 +213,7 @@
 
 ### `http://unitsofmeasure.org` (4)
 
-> [630596c7-97c4-47d0-8fe7-161e1c3a39ed]: A usable code system with URL http://unitsofmeasure.org could not be resolved.
+> [320c209b-00cf-4729-a912-0bc2e2507a1d]: A usable code system with URL http://unitsofmeasure.org could not be resolved.
 
 - [JDV-J163-GlucoseUnits-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J163-GlucoseUnits-ENS) — JDV-J163-GlucoseUnits-ENS
 - [JDV-J278-UcumUniteMesure-UPNOS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J278-UcumUniteMesure-UPNOS) — JDV-J278-UcumUniteMesure-UPNOS
@@ -222,7 +222,7 @@
 
 ### `https://smt.esante.gouv.fr/terminologie-adicap` (4)
 
-> [58f2744b-4bbc-4c52-a96f-2424bf42d88d]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+> [ea267f6d-a9ad-44a2-b483-ae7f7668c3ba]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
 
 - [jdv-conditionnement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conditionnement-cisis) — JDV Conditionnement CISIS
 - [jdv-organe-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-organe-cisis) — JDV Organe CISIS
@@ -231,7 +231,7 @@
 
 ### `https://smt.esante.gouv.fr/terminologie-ncit` (3)
 
-> [4c093b16-c196-4c58-a5fe-6bfaafe500e1]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+> [0e428790-361e-4a3a-a31e-711f3996ea96]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
 
 - [JDV-J146-MethodBodyHeight-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J146-MethodBodyHeight-ENS) — JDV-J146-MethodBodyHeight-ENS
 - [JDV-J159-MethodPainSeverity-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J159-MethodPainSeverity-ENS) — JDV-J159-MethodPainSeverity-ENS
@@ -239,7 +239,7 @@
 
 ### `http://hl7.org/fhir/sid/icf` (3)
 
-> [3cc6b133-f60e-4c87-a1b5-cb2177193a27]: A usable code system with URL http://hl7.org/fhir/sid/icf could not be resolved.
+> [5a3c1744-d6b0-4ba1-81f0-d10b928bd2c2]: A usable code system with URL http://hl7.org/fhir/sid/icf could not be resolved.
 
 - [jdv-evaluation-aggir-pa-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-pa-cisis) — JDV Evaluation Aggir Pa CISIS
 - [jdv-evaluation-aggir-ph-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-ph-cisis) — JDV Evaluation Aggir Ph CISIS
@@ -247,21 +247,21 @@
 
 ### `http://dicom.nema.org/resources/ontology/DCMUID` (2)
 
-> [cabe4125-e403-4dd1-809f-402f4e31b86c]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCMUID could not be resolved.
+> [5569ac45-889a-4b57-bb01-77b955d5315c]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCMUID could not be resolved.
 
 - [JDV-J10-XdsFormatCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J10-XdsFormatCode-CISIS) — JDV-J10-XdsFormatCode-CISIS
 - [JDV-J60-FormatCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J60-FormatCode-DMP) — JDV-J60-FormatCode-DMP
 
 ### `https://smt.esante.gouv.fr/terminologie-tccr` (2)
 
-> [4573bd74-3bc0-4e9d-8edc-eb54d6b16ddc]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+> [4e6fae0a-dc41-4c94-be97-b17fc648e282]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
 
 - [jdv-technique-biologie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis) — JDV Technique Biologie CISIS
 - [jdv-trousse-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trousse-ccu-cisis) — JDV Trousse Ccu CISIS
 
 ### `http://terminology.hl7.org/CodeSystem/v3-RoleClass` (2)
 
-> [4cc13b82-4866-4064-a579-f33271777e0f]: A usable code system with URL http://terminology.hl7.org/CodeSystem/v3-RoleClass could not be resolved.
+> [fbd628f7-4fa6-46ea-95fb-58d4a803ea47]: A usable code system with URL http://terminology.hl7.org/CodeSystem/v3-RoleClass could not be resolved.
 
 - [jdv-hl7-v3-RoleClassIngredientEntity-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis) — RoleClassIngredientEntity
 - [jdv-role-informateur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis) — Jdv Role Informateur CISIS
@@ -274,91 +274,91 @@
 
 ### `https://smt.esante.gouv.fr/terminologie-sms?vs|20241114120000` (1)
 
-> [9728058e-e53e-45d1-a56d-038f4faef71d]: The expansion of value set https://smt.esante.gouv.fr/terminologie-sms?vs|20241114120000 was too big (>50000).
+> [bd95819f-2320-439d-8c30-7b5aa9cf3fc6]: The expansion of value set https://smt.esante.gouv.fr/terminologie-sms?vs|20241114120000 was too big (>50000).
 
 - [vs-sms-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-sms-all) — vs-sms-all
 
 ### `https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin` (1)
 
-> [fbf36aa7-c57b-4e03-bd6d-55a4bff8f212]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+> [009a418f-f60d-451b-9569-b6841fba853a]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
 
 - [JDV-J51-FamilleActiviteOperationnelle-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR) — JDV-J51-FamilleActiviteOperationnelle-ROR
 
-### `[f62760c5-1d57-4587-8cb7-ce5000fe9f29]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.` (1)
+### `[f8e0da29-9c7d-4f34-95d0-910002d2540e]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.` (1)
 
-> [f62760c5-1d57-4587-8cb7-ce5000fe9f29]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.
+> [f8e0da29-9c7d-4f34-95d0-910002d2540e]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.
 
 - [jdv-hl7-iso3166-1-2-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-iso3166-1-2-cisis) — Iso 3166 Part 1: 2 Letter Codes
 
 ### `http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical` (1)
 
-> [2d544f2a-60c4-44b1-bbda-f2ef0643a94a]: A usable code system with URL http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical could not be resolved.
+> [14660aaa-f609-42d3-b1bb-972489c661a2]: A usable code system with URL http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical could not be resolved.
 
 - [jdv-hl7-allergyintolerance-clinical-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergyintolerance-clinical-cisis) — AllergyIntolerance Clinical Status Codes
 
 ### `http://hl7.org/fhir/codesystem-allergy-intolerance-category.html` (1)
 
-> [38b0e4aa-c51f-47e8-a580-abe64cb4b32e]: A usable code system with URL http://hl7.org/fhir/codesystem-allergy-intolerance-category.html could not be resolved.
+> [66ee62dc-af64-42f0-8622-33752af167e3]: A usable code system with URL http://hl7.org/fhir/codesystem-allergy-intolerance-category.html could not be resolved.
 
 - [jdv-hl7-allergy-intolerance-category-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis) — AllergyIntoleranceCategory
 
 ### `http://hl7.org/fhir/allergy-intolerance-criticality` (1)
 
-> [94ba2303-78c3-429d-a0be-160a2c5316c7]: A usable code system with URL http://hl7.org/fhir/allergy-intolerance-criticality could not be resolved.
+> [2a07331a-001f-4c21-bd1a-059090b1a334]: A usable code system with URL http://hl7.org/fhir/allergy-intolerance-criticality could not be resolved.
 
 - [jdv-hl7-allergy-intolerance-criticality-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-criticality-cisis) — Allergy Intolerance Criticality
 
 ### `https://www.imdrf.org` (1)
 
-> [d078723f-f05c-4a96-9bfa-d69cce2d9bb2]: A usable code system with URL https://www.imdrf.org could not be resolved.
+> [83468cbe-3efa-44cb-8c41-8c1941f66a7e]: A usable code system with URL https://www.imdrf.org could not be resolved.
 
 - [jdv-defaillance-materielle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis) — JDV Defaillance Materielle CISIS
 
 ### `http://hl7.org/fhir/days-of-week` (1)
 
-> [ddafc5b1-7e1e-49cc-9eef-5a40c43dd7d6]: A usable code system with URL http://hl7.org/fhir/days-of-week could not be resolved.
+> [687b7263-e0ec-4143-83f7-74d0d4bf0f20]: A usable code system with URL http://hl7.org/fhir/days-of-week could not be resolved.
 
 - [jdv-hl7-days-of-week-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week-cisis) — Days Of Week
 
 ### `http://id.who.int/icd/release/11/mms` (1)
 
-> [6e2d214d-0ee8-4134-867d-9b8287e5bdd5]: A usable code system with URL http://id.who.int/icd/release/11/mms could not be resolved.
+> [901ce743-1651-4c9f-b7c1-6109c5b1d107]: A usable code system with URL http://id.who.int/icd/release/11/mms could not be resolved.
 
 - [jdv-cause-accident-domestique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cause-accident-domestique-cisis) — JDV Cause Accident Domestique CISIS
 
 ### `http://www.genenames.org/geneId` (1)
 
-> [b07d4e89-fa54-4c47-ba34-6053814a639d]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+> [877d3c49-a000-44a0-b02e-089ccef0088d]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
 
 - [jdv-gene-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis) — JDV Gene CISIS
 
 ### `http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl` (1)
 
-> [19e14e79-2e65-4005-bc55-aba3cc24821e]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+> [11ad90c2-a012-400e-8cda-c2bda21e3ca9]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
 
 - [jdv-methode-de-mesure-acuite-visuelle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis) — JDV Methode De Mesure Acuite Visuelle CISIS
 
 ### `https://smt.esante.gouv.fr/terminologie-PCS/` (1)
 
-> [98a303fd-3ecb-4b6b-8207-431cbca19541]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-PCS/ could not be resolved.
+> [bee93b16-09b6-4eae-ad51-fa8a418614bd]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-PCS/ could not be resolved.
 
 - [jdv-profession-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-cisis) — JDV Profession CISIS
 
 ### `https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html` (1)
 
-> [b897fb4c-cda6-453d-869f-fce97fe24952]: A usable code system with URL https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html could not be resolved.
+> [6b8ee381-7f1f-4473-a7e5-8114dfd416e0]: A usable code system with URL https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html could not be resolved.
 
 - [jdv-sop-class-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis) — JDV Sop Class CISIS
 
 ### `https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary` (1)
 
-> [87b6e967-ee34-49cb-92bc-906a6567da38]: A usable code system with URL https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary could not be resolved.
+> [26e68118-c5f9-4039-a851-8aa9205da752]: A usable code system with URL https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary could not be resolved.
 
 - [jdv-secteur-activite-employeur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis) — JDV Secteur Activite Employeur CISIS
 
 ### `https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322` (1)
 
-> [2fc4ccfc-3f6c-4a75-a2ff-32b778cbc0d1]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 could not be resolved.
+> [7df183d1-e9c0-437d-b620-cf236b025652]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 could not be resolved.
 
 - [VS-test](https://smt.esante.gouv.fr/fhir/ValueSet/VS-test) — VS-test
 
