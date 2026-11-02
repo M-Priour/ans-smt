@@ -1,6 +1,6 @@
 # Rapport $expand — ValueSets SMT ANS
 
-**Date :** 2026-10-26 12:12 UTC  
+**Date :** 2026-11-02 14:42 UTC  
 **Source :** https://smt.esante.gouv.fr/fhir  
 **Périmètre :** ValueSets `status=active`
 
@@ -8,9 +8,9 @@
 
 | Statut | Nb |
 |---|---|
-| Total ValueSets actifs | 841 |
-| ✅ OK | **672** |
-| ❌ Erreurs | **169** |
+| Total ValueSets actifs | 844 |
+| ✅ OK | **681** |
+| ❌ Erreurs | **163** |
 
 ## Erreurs par CodeSystem manquant
 
@@ -19,7 +19,6 @@
 | `LOINC is not indexed` | 70 |
 | `icd-10` | 37 |
 | `DCM` | 8 |
-| `tre-r396-autorite` | 6 |
 | `absent-unknown-uv-ips` | 6 |
 | `atc` | 6 |
 | `unitsofmeasure.org` | 4 |
@@ -32,7 +31,7 @@
 | `terminologie-cip_ucd` | 1 |
 | `terminologie-sms?vs|20241114120000` | 1 |
 | `TRE-R265-PrestationPilotageSerafin` | 1 |
-| `[7f64e1be-dbc7-4c88-8c55-daf692540230]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.` | 1 |
+| `[56b9cf03-9f94-4334-80dd-4ce594719767]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.` | 1 |
 | `allergyintolerance-clinical` | 1 |
 | `codesystem-allergy-intolerance-category.html` | 1 |
 | `allergy-intolerance-criticality` | 1 |
@@ -50,7 +49,7 @@
 
 ### `LOINC is not indexed` (70)
 
-> [ee86ef9d-688b-46de-b330-cc0fce8ff772]: LOINC is not indexed!
+> [0f052b42-d748-4594-b347-658e9a18c5cd]: LOINC is not indexed!
 
 - [JDV-J07-XdsTypeCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J07-XdsTypeCode-CISIS) — JDV-J07-XdsTypeCode-CISIS
 - [JDV-J154-TypeGlucose-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J154-TypeGlucose-ENS) — JDV-J154-TypeGlucose-ENS
@@ -125,7 +124,7 @@
 
 ### `http://hl7.org/fhir/sid/icd-10` (37)
 
-> [ff21130c-71d5-476a-b410-022a0f7729b5]: A usable code system with URL http://hl7.org/fhir/sid/icd-10 could not be resolved.
+> [7dc28bcf-86c9-4382-a392-552ad31a6d09]: A usable code system with URL http://hl7.org/fhir/sid/icd-10 could not be resolved.
 
 - [jdv-anomalie-croissance-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-anomalie-croissance-cisis) — JDV Anomalie Croissance CISIS
 - [jdv-antecedant-medical-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedant-medical-cisis) — JDV Antecedant Medical CISIS
@@ -167,7 +166,7 @@
 
 ### `http://dicom.nema.org/resources/ontology/DCM` (8)
 
-> [8c655f7a-360c-4a52-876b-28eef0d8a6ac]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCM could not be resolved.
+> [5f596fd9-7c02-4ccf-9a36-fe236e448b3f]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCM could not be resolved.
 
 - [jdv-conduite-a-tenir-1-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-1-cisis) — JDV Conduite A Tenir 1 CISIS
 - [jdv-conduite-a-tenir-3-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-3-cisis) — JDV Conduite A Tenir 3 CISIS
@@ -178,20 +177,9 @@
 - [jdv-quantite-exposition-rayonnements-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis) — JDV Quantite Exposition Rayonnements CISIS
 - [jdv-technique-imagerie-d2lm-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-imagerie-d2lm-cisis) — JDV Technique Imagerie D2lm CISIS
 
-### `https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite` (6)
-
-> [ccda89fd-27fb-4434-9aad-839065cc7a9f]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite could not be resolved.
-
-- [jdv-j287-type-autorite-regulation-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess) — Jdv J287 Type Autorite Regulation Finess
-- [jdv-j358-type-autorite-enregistrement-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j358-type-autorite-enregistrement-finess) — Jdv J358 Type Autorite Enregistrement Finess
-- [jdv-j359-autorite-enregistrement-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j359-autorite-enregistrement-finess) — Jdv J359 Autorite Enregistrement Finess
-- [jdv-j360-autorite-regulation-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j360-autorite-regulation-finess) — Jdv J360 Autorite Regulation Finess
-- [jdv-j373-type-autorite](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite) — Jdv J373 Type Autorite
-- [jdv-j374-autorite](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite) — Jdv J374 Autorite
-
 ### `http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips` (6)
 
-> [1366e519-d706-463d-838e-775c4bb2d319]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved.
+> [c32bda12-3630-45d2-880b-1b637dc0a713]: A usable code system with URL http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips could not be resolved.
 
 - [jdv-absent-or-unknown-allergy-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis) — JDV Absent Or Unknown Allergy CISIS
 - [jdv-absent-or-unknown-devices-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis) — JDV Absent Or Unknown Devices CISIS
@@ -202,7 +190,7 @@
 
 ### `http://www.whocc.no/atc` (6)
 
-> [80feb62f-0523-4429-92a2-bc4c0a81dbd8]: A usable code system with URL http://www.whocc.no/atc could not be resolved.
+> [89e465af-57a2-4e5f-a3df-d67f87de0932]: A usable code system with URL http://www.whocc.no/atc could not be resolved.
 
 - [jdv-allergie-vaccin-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-allergie-vaccin-cisis) — JDV Allergie Vaccin CISIS
 - [jdv-classe-therapie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classe-therapie-cisis) — JDV Classe Therapie CISIS
@@ -213,7 +201,7 @@
 
 ### `http://unitsofmeasure.org` (4)
 
-> [77b579e0-b930-4fb2-b1d8-83d4ed2f44da]: A usable code system with URL http://unitsofmeasure.org could not be resolved.
+> [345d57dd-03aa-46d5-9c38-7bc94868cdb6]: A usable code system with URL http://unitsofmeasure.org could not be resolved.
 
 - [JDV-J163-GlucoseUnits-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J163-GlucoseUnits-ENS) — JDV-J163-GlucoseUnits-ENS
 - [JDV-J278-UcumUniteMesure-UPNOS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J278-UcumUniteMesure-UPNOS) — JDV-J278-UcumUniteMesure-UPNOS
@@ -222,7 +210,7 @@
 
 ### `https://smt.esante.gouv.fr/terminologie-adicap` (4)
 
-> [01e1c854-1e53-43e6-8a44-435472cbc52f]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+> [966c75ae-8ba8-49cc-84b9-a4a8b764cf37]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
 
 - [jdv-conditionnement-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conditionnement-cisis) — JDV Conditionnement CISIS
 - [jdv-organe-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-organe-cisis) — JDV Organe CISIS
@@ -231,7 +219,7 @@
 
 ### `https://smt.esante.gouv.fr/terminologie-ncit` (3)
 
-> [60097fc5-6b48-4be0-ab4f-c877359c20fc]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+> [35218693-5983-4286-b7af-dc7ee1f6c9b0]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
 
 - [JDV-J146-MethodBodyHeight-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J146-MethodBodyHeight-ENS) — JDV-J146-MethodBodyHeight-ENS
 - [JDV-J159-MethodPainSeverity-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J159-MethodPainSeverity-ENS) — JDV-J159-MethodPainSeverity-ENS
@@ -239,7 +227,7 @@
 
 ### `http://hl7.org/fhir/sid/icf` (3)
 
-> [0e997930-befe-4f11-a3ad-9e791fecfa3f]: A usable code system with URL http://hl7.org/fhir/sid/icf could not be resolved.
+> [a91ffe09-d087-4bf5-8abf-009cc120674b]: A usable code system with URL http://hl7.org/fhir/sid/icf could not be resolved.
 
 - [jdv-evaluation-aggir-pa-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-pa-cisis) — JDV Evaluation Aggir Pa CISIS
 - [jdv-evaluation-aggir-ph-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-ph-cisis) — JDV Evaluation Aggir Ph CISIS
@@ -247,21 +235,21 @@
 
 ### `http://dicom.nema.org/resources/ontology/DCMUID` (2)
 
-> [2fd45a58-fd1c-4a5d-8060-4a71032c906c]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCMUID could not be resolved.
+> [3b82db77-746b-4c6d-951e-9943ef35e7d3]: A usable code system with URL http://dicom.nema.org/resources/ontology/DCMUID could not be resolved.
 
 - [JDV-J10-XdsFormatCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J10-XdsFormatCode-CISIS) — JDV-J10-XdsFormatCode-CISIS
 - [JDV-J60-FormatCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J60-FormatCode-DMP) — JDV-J60-FormatCode-DMP
 
 ### `https://smt.esante.gouv.fr/terminologie-tccr` (2)
 
-> [1a90ca2a-96a3-4b1a-8b1f-4842c1a86d4c]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+> [69b84297-6f5b-4998-b5d9-e68700374a70]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
 
 - [jdv-technique-biologie-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis) — JDV Technique Biologie CISIS
 - [jdv-trousse-ccu-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trousse-ccu-cisis) — JDV Trousse Ccu CISIS
 
 ### `http://terminology.hl7.org/CodeSystem/v3-RoleClass` (2)
 
-> [03fa4ba6-8b10-4cd8-8b24-d952055d7f6d]: A usable code system with URL http://terminology.hl7.org/CodeSystem/v3-RoleClass could not be resolved.
+> [14699e41-9df3-4f9e-af3e-11fa320d99cf]: A usable code system with URL http://terminology.hl7.org/CodeSystem/v3-RoleClass could not be resolved.
 
 - [jdv-hl7-v3-RoleClassIngredientEntity-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis) — RoleClassIngredientEntity
 - [jdv-role-informateur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis) — Jdv Role Informateur CISIS
@@ -274,91 +262,91 @@
 
 ### `https://smt.esante.gouv.fr/terminologie-sms?vs|20241114120000` (1)
 
-> [68b39a5b-3b3c-4ba5-92d4-f2e67d2df498]: The expansion of value set https://smt.esante.gouv.fr/terminologie-sms?vs|20241114120000 was too big (>50000).
+> [22ad81c2-67f4-4fcb-9fe5-ff7c4c449a35]: The expansion of value set https://smt.esante.gouv.fr/terminologie-sms?vs|20241114120000 was too big (>50000).
 
 - [vs-sms-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-sms-all) — vs-sms-all
 
 ### `https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin` (1)
 
-> [95021e90-4533-407e-908a-4abacc552a27]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+> [86799028-ce9f-4b1c-bc56-2b27301a5954]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
 
 - [JDV-J51-FamilleActiviteOperationnelle-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR) — JDV-J51-FamilleActiviteOperationnelle-ROR
 
-### `[7f64e1be-dbc7-4c88-8c55-daf692540230]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.` (1)
+### `[56b9cf03-9f94-4334-80dd-4ce594719767]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.` (1)
 
-> [7f64e1be-dbc7-4c88-8c55-daf692540230]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.
+> [56b9cf03-9f94-4334-80dd-4ce594719767]: A usable code system with URL urn:iso:std:iso:3166 could not be resolved.
 
 - [jdv-hl7-iso3166-1-2-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-iso3166-1-2-cisis) — Iso 3166 Part 1: 2 Letter Codes
 
 ### `http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical` (1)
 
-> [73b08f83-a03e-4444-b9c8-7dc4c52bdd88]: A usable code system with URL http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical could not be resolved.
+> [4312d952-ef31-400b-b455-e4217798e1f5]: A usable code system with URL http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical could not be resolved.
 
 - [jdv-hl7-allergyintolerance-clinical-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergyintolerance-clinical-cisis) — AllergyIntolerance Clinical Status Codes
 
 ### `http://hl7.org/fhir/codesystem-allergy-intolerance-category.html` (1)
 
-> [e28d2430-b241-40be-8b1e-c6f5af92034a]: A usable code system with URL http://hl7.org/fhir/codesystem-allergy-intolerance-category.html could not be resolved.
+> [18c71fee-b6a3-4743-8d61-77ca4f5d912a]: A usable code system with URL http://hl7.org/fhir/codesystem-allergy-intolerance-category.html could not be resolved.
 
 - [jdv-hl7-allergy-intolerance-category-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis) — AllergyIntoleranceCategory
 
 ### `http://hl7.org/fhir/allergy-intolerance-criticality` (1)
 
-> [ccaf6275-804d-4fd4-82b4-0e48644228ed]: A usable code system with URL http://hl7.org/fhir/allergy-intolerance-criticality could not be resolved.
+> [ac9eb79c-c106-4bd6-99b8-62c546c11c9e]: A usable code system with URL http://hl7.org/fhir/allergy-intolerance-criticality could not be resolved.
 
 - [jdv-hl7-allergy-intolerance-criticality-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-criticality-cisis) — Allergy Intolerance Criticality
 
 ### `https://www.imdrf.org` (1)
 
-> [c1ac026c-86cd-4289-b0c9-78d15aca4d98]: A usable code system with URL https://www.imdrf.org could not be resolved.
+> [c8c26458-38bf-4f05-8849-67a10986af30]: A usable code system with URL https://www.imdrf.org could not be resolved.
 
 - [jdv-defaillance-materielle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis) — JDV Defaillance Materielle CISIS
 
 ### `http://hl7.org/fhir/days-of-week` (1)
 
-> [d89cff41-3a96-4833-9602-7581aa424b68]: A usable code system with URL http://hl7.org/fhir/days-of-week could not be resolved.
+> [886b4ed9-7601-469d-b243-7874bc874dda]: A usable code system with URL http://hl7.org/fhir/days-of-week could not be resolved.
 
 - [jdv-hl7-days-of-week-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week-cisis) — Days Of Week
 
 ### `http://id.who.int/icd/release/11/mms` (1)
 
-> [d94db7d3-ee5f-4ed7-bbb8-f4f9ec962906]: A usable code system with URL http://id.who.int/icd/release/11/mms could not be resolved.
+> [7fb89ecc-a9e0-45d8-9efe-51396639c165]: A usable code system with URL http://id.who.int/icd/release/11/mms could not be resolved.
 
 - [jdv-cause-accident-domestique-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cause-accident-domestique-cisis) — JDV Cause Accident Domestique CISIS
 
 ### `http://www.genenames.org/geneId` (1)
 
-> [ec652e71-3f02-45c6-a4e1-aab91f682d38]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+> [321b2c5c-d621-4bbb-81cd-dc97e80c6461]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
 
 - [jdv-gene-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis) — JDV Gene CISIS
 
 ### `http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl` (1)
 
-> [c09d5eec-1f14-4cb4-a6e5-cb02fb562f70]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+> [27caeffb-c1d8-49d7-8088-a52e41a43bc5]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
 
 - [jdv-methode-de-mesure-acuite-visuelle-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis) — JDV Methode De Mesure Acuite Visuelle CISIS
 
 ### `https://smt.esante.gouv.fr/terminologie-PCS/` (1)
 
-> [c185656e-0492-4c34-ab8f-15995c5277b2]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-PCS/ could not be resolved.
+> [f0dd2e1f-7454-410a-867f-610e0087bd04]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-PCS/ could not be resolved.
 
 - [jdv-profession-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-cisis) — JDV Profession CISIS
 
 ### `https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html` (1)
 
-> [7494e1e4-7c2b-4587-87f9-cfc423c38caf]: A usable code system with URL https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html could not be resolved.
+> [1246ed46-69d2-4243-b759-d667b5c62af1]: A usable code system with URL https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html could not be resolved.
 
 - [jdv-sop-class-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis) — JDV Sop Class CISIS
 
 ### `https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary` (1)
 
-> [5ac1aa4f-257c-4780-ac32-61dcd62c574a]: A usable code system with URL https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary could not be resolved.
+> [6ded3e00-0175-4a75-81c4-af294d82b16d]: A usable code system with URL https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary could not be resolved.
 
 - [jdv-secteur-activite-employeur-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis) — JDV Secteur Activite Employeur CISIS
 
 ### `https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322` (1)
 
-> [79725cc7-6114-4aa3-b283-dc9b7ae7b374]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 could not be resolved.
+> [1b8929d0-ccaf-42f5-9064-24f2844ba101]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 could not be resolved.
 
 - [VS-test](https://smt.esante.gouv.fr/fhir/ValueSet/VS-test) — VS-test
 
@@ -368,18 +356,18 @@
 
 | ValueSet | Titre | Nb concepts |
 |---|---|---|
-| [JDV-J01-XdsAuthorSpecialty-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS) | JDV-J01-XdsAuthorSpecialty-CISIS | 400 |
+| [JDV-J01-XdsAuthorSpecialty-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS) | JDV-J01-XdsAuthorSpecialty-CISIS | 388 |
 | [JDV-J02-XdsHealthcareFacilityTypeCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS) | JDV-J02-XdsHealthcareFacilityTypeCode-CISIS | 69 |
 | [JDV-J03-XdsContentTypeCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J03-XdsContentTypeCode-CISIS) | JDV-J03-XdsContentTypeCode-CISIS | 101 |
 | [JDV-J04-XdsPracticeSettingCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J04-XdsPracticeSettingCode-CISIS) | JDV-J04-XdsPracticeSettingCode-CISIS | 12 |
-| [JDV-J05-SubjectRole-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J05-SubjectRole-CISIS) | JDV-J05-SubjectRole-CISIS | 454 |
+| [JDV-J05-SubjectRole-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J05-SubjectRole-CISIS) | JDV-J05-SubjectRole-CISIS | 443 |
 | [JDV-J06-XdsClassCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J06-XdsClassCode-CISIS) | JDV-J06-XdsClassCode-CISIS | 13 |
 | [JDV-J08-XdsConfidentialityCode-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J08-XdsConfidentialityCode-CISIS) | JDV-J08-XdsConfidentialityCode-CISIS | 6 |
 | [JDV-J100-FinessStatutJuridique-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J100-FinessStatutJuridique-RASS) | JDV-J100-FinessStatutJuridique-RASS | 79 |
 | [JDV-J101-SecteurActivite-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J101-SecteurActivite-RASS) | JDV-J101-SecteurActivite-RASS | 69 |
 | [JDV-J103-TypeVoie-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J103-TypeVoie-RASS) | JDV-J103-TypeVoie-RASS | 184 |
 | [JDV-J104-TypeIdentifiantStructure-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J104-TypeIdentifiantStructure-RASS) | JDV-J104-TypeIdentifiantStructure-RASS | 5 |
-| [JDV-J105-EnsembleDiplome-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J105-EnsembleDiplome-RASS) | JDV-J105-EnsembleDiplome-RASS | 773 |
+| [JDV-J105-EnsembleDiplome-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J105-EnsembleDiplome-RASS) | JDV-J105-EnsembleDiplome-RASS | 779 |
 | [JDV-J106-EnsembleProfession-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J106-EnsembleProfession-RASS) | JDV-J106-EnsembleProfession-RASS | 29 |
 | [JDV-J107-EnsembleSavoirFaire-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J107-EnsembleSavoirFaire-RASS) | JDV-J107-EnsembleSavoirFaire-RASS | 270 |
 | [JDV-J108-EnsembleFonction-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J108-EnsembleFonction-RASS) | JDV-J108-EnsembleFonction-RASS | 122 |
@@ -394,7 +382,7 @@
 | [JDV-J118-CategorieProfessionnelle-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J118-CategorieProfessionnelle-ENREG) | JDV-J118-CategorieProfessionnelle-ENREG | 3 |
 | [JDV-J119-TypeActiviteLiberale-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J119-TypeActiviteLiberale-ENREG) | JDV-J119-TypeActiviteLiberale-ENREG | 6 |
 | [JDV-J120-CommuneHistorisee](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J120-CommuneHistorisee) | JDV-J120-CommuneHistorisee | 39298 |
-| [JDV-J121-RolePriseCharge-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J121-RolePriseCharge-ENREG) | JDV-J121-RolePriseCharge-ENREG | 60 |
+| [JDV-J121-RolePriseCharge-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J121-RolePriseCharge-ENREG) | JDV-J121-RolePriseCharge-ENREG | 59 |
 | [JDV-J122-Profession-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J122-Profession-ENREG) | JDV-J122-Profession-ENREG | 1 |
 | [JDV-J124-Commune](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J124-Commune) | JDV-J124-Commune | 34971 |
 | [JDV-J125-MotifRejet-ENREG](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J125-MotifRejet-ENREG) | JDV-J125-MotifRejet-ENREG | 3 |
@@ -425,14 +413,14 @@
 | [JDV-J155-MethodGlucoseSanguin-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J155-MethodGlucoseSanguin-ENS) | JDV-J155-MethodGlucoseSanguin-ENS | 2 |
 | [JDV-J156-MethodGlucoseInterstitiel-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J156-MethodGlucoseInterstitiel-ENS) | JDV-J156-MethodGlucoseInterstitiel-ENS | 1 |
 | [JDV-J158-MethodStepsByDay-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J158-MethodStepsByDay-ENS) | JDV-J158-MethodStepsByDay-ENS | 3 |
-| [JDV-J16-ActeSpecifique-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J16-ActeSpecifique-ROR) | JDV-J16-ActeSpecifique-ROR | 1352 |
+| [JDV-J16-ActeSpecifique-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J16-ActeSpecifique-ROR) | JDV-J16-ActeSpecifique-ROR | 1359 |
 | [JDV-J161-Lateralite-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J161-Lateralite-CISIS) | JDV-J161-Lateralite-CISIS | 4 |
 | [JDV-J162-ESPIC-RASS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J162-ESPIC-RASS) | JDV-J162-ESPIC-RASS | 9 |
 | [JDV-J164-GlucoseNumberOfDays-ENS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J164-GlucoseNumberOfDays-ENS) | JDV-J164-GlucoseNumberOfDays-ENS | 5 |
 | [JDV-J165-TypeCreneau-SAS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J165-TypeCreneau-SAS) | JDV-J165-TypeCreneau-SAS | 4 |
 | [JDV-J166-Profession-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J166-Profession-EPARS) | JDV-J166-Profession-EPARS | 21 |
 | [JDV-J169-MotifFinActivite-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J169-MotifFinActivite-EPARS) | JDV-J169-MotifFinActivite-EPARS | 9 |
-| [JDV-J17-ActiviteOperationnelle-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR) | JDV-J17-ActiviteOperationnelle-ROR | 554 |
+| [JDV-J17-ActiviteOperationnelle-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR) | JDV-J17-ActiviteOperationnelle-ROR | 558 |
 | [JDV-J170-AutoriteEnregistrement-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J170-AutoriteEnregistrement-EPARS) | JDV-J170-AutoriteEnregistrement-EPARS | 19 |
 | [JDV-J171-TypeAutorisation-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J171-TypeAutorisation-EPARS) | JDV-J171-TypeAutorisation-EPARS | 22 |
 | [JDV-J172-SecteurActivite-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J172-SecteurActivite-EPARS) | JDV-J172-SecteurActivite-EPARS | 63 |
@@ -447,7 +435,7 @@
 | [JDV-J182-BesoinScolarite-MDPH](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J182-BesoinScolarite-MDPH) | JDV-J182-BesoinScolarite-MDPH | 7 |
 | [JDV-J183-Diplome-EPARS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J183-Diplome-EPARS) | JDV-J183-Diplome-EPARS | 64 |
 | [JDV-J185-TypeFermeture-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J185-TypeFermeture-ROR) | JDV-J185-TypeFermeture-ROR | 3 |
-| [JDV-J186-ProfessionRessource-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J186-ProfessionRessource-ROR) | JDV-J186-ProfessionRessource-ROR | 150 |
+| [JDV-J186-ProfessionRessource-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J186-ProfessionRessource-ROR) | JDV-J186-ProfessionRessource-ROR | 152 |
 | [JDV-J187-NatureCapacite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J187-NatureCapacite-ROR) | JDV-J187-NatureCapacite-ROR | 3 |
 | [JDV-J188-TypeStatutCapacite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J188-TypeStatutCapacite-ROR) | JDV-J188-TypeStatutCapacite-ROR | 6 |
 | [JDV-J189-TemporaliteCapacite-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J189-TemporaliteCapacite-ROR) | JDV-J189-TemporaliteCapacite-ROR | 5 |
@@ -492,9 +480,9 @@
 | [JDV-J224-StatutLieu-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J224-StatutLieu-ROR) | JDV-J224-StatutLieu-ROR | 3 |
 | [JDV-J225-CanalCommunication-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J225-CanalCommunication-ROR) | JDV-J225-CanalCommunication-ROR | 10 |
 | [JDV-J226-ModaliteAccueil-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J226-ModaliteAccueil-ROR) | JDV-J226-ModaliteAccueil-ROR | 25 |
-| [JDV-J227-NiveauExpertise-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J227-NiveauExpertise-ROR) | JDV-J227-NiveauExpertise-ROR | 50 |
+| [JDV-J227-NiveauExpertise-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J227-NiveauExpertise-ROR) | JDV-J227-NiveauExpertise-ROR | 52 |
 | [JDV-J228-TypeCaracteristiqueEquipement-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J228-TypeCaracteristiqueEquipement-ROR) | JDV-J228-TypeCaracteristiqueEquipement-ROR | 2 |
-| [JDV-J229-ProfessionSante-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J229-ProfessionSante-ROR) | JDV-J229-ProfessionSante-ROR | 31 |
+| [JDV-J229-ProfessionSante-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J229-ProfessionSante-ROR) | JDV-J229-ProfessionSante-ROR | 34 |
 | [JDV-J23-TypeNoteCahierLiaison-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J23-TypeNoteCahierLiaison-CISIS) | JDV-J23-TypeNoteCahierLiaison-CISIS | 5 |
 | [JDV-J231-XdsTypesIdentifiantsReferenceId-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J231-XdsTypesIdentifiantsReferenceId-DMP) | JDV-J231-XdsTypesIdentifiantsReferenceId-DMP | 3 |
 | [JDV-J232-Competence-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J232-Competence-ROR) | JDV-J232-Competence-ROR | 43 |
@@ -553,14 +541,14 @@
 | [JDV-J50-AccessibiliteLieu-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J50-AccessibiliteLieu-ROR) | JDV-J50-AccessibiliteLieu-ROR | 6 |
 | [JDV-J52-AvailabilityStatus-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J52-AvailabilityStatus-CISIS) | JDV-J52-AvailabilityStatus-CISIS | 4 |
 | [JDV-J53-TypeRequeteGestionDossier-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J53-TypeRequeteGestionDossier-CISIS) | JDV-J53-TypeRequeteGestionDossier-CISIS | 6 |
-| [JDV-J54-Profession-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J54-Profession-ROR) | JDV-J54-Profession-ROR | 53 |
+| [JDV-J54-Profession-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J54-Profession-ROR) | JDV-J54-Profession-ROR | 55 |
 | [JDV-J55-CategorieEG-ROR](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J55-CategorieEG-ROR) | JDV-J55-CategorieEG-ROR | 181 |
-| [JDV-J56-AuthorSpecialty-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J56-AuthorSpecialty-DMP) | JDV-J56-AuthorSpecialty-DMP | 379 |
+| [JDV-J56-AuthorSpecialty-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J56-AuthorSpecialty-DMP) | JDV-J56-AuthorSpecialty-DMP | 411 |
 | [JDV-J57-ClassCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J57-ClassCode-DMP) | JDV-J57-ClassCode-DMP | 12 |
 | [JDV-J58-ConfidentialityCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J58-ConfidentialityCode-DMP) | JDV-J58-ConfidentialityCode-DMP | 6 |
 | [JDV-J59-ContentTypeCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J59-ContentTypeCode-DMP) | JDV-J59-ContentTypeCode-DMP | 101 |
 | [JDV-J61-HealthcareFacilityTypeCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J61-HealthcareFacilityTypeCode-DMP) | JDV-J61-HealthcareFacilityTypeCode-DMP | 68 |
-| [JDV-J62-PracticeSettingCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J62-PracticeSettingCode-DMP) | JDV-J62-PracticeSettingCode-DMP | 11 |
+| [JDV-J62-PracticeSettingCode-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J62-PracticeSettingCode-DMP) | JDV-J62-PracticeSettingCode-DMP | 12 |
 | [JDV-J64-RestrictionAudienceVIHF-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J64-RestrictionAudienceVIHF-DMP) | JDV-J64-RestrictionAudienceVIHF-DMP | 1 |
 | [JDV-J65-SubjectRole-DMP](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J65-SubjectRole-DMP) | JDV-J65-SubjectRole-DMP | 432 |
 | [JDV-J67-TraitementDocument-CISIS](https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J67-TraitementDocument-CISIS) | JDV-J67-TraitementDocument-CISIS | 1 |
@@ -724,6 +712,7 @@
 | [jdv-investigation-realisee-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-cisis) | JDV Investigation Realisee CISIS | 9 |
 | [jdv-investigation-realisee-eunv-cisis](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-eunv-cisis) | JDV Investigation Realisee Eunv CISIS | 9 |
 | [jdv-j240-activite-sanitaire-diverse-regulee-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess) | Jdv J240 Activite Sanitaire Diverse Regulee Finess | 386 |
+| [jdv-j287-type-autorite-regulation-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess) | Jdv J287 Type Autorite Regulation Finess | 1 |
 | [jdv-j289-type-groupe-gco-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess) | Jdv J289 Type Groupe Gco Finess | 4 |
 | [jdv-j293-type-engagement-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess) | Jdv J293 Type Engagement Finess | 4 |
 | [jdv-j294-document-justificatif-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess) | Jdv J294 Document Justificatif Finess | 14 |
@@ -773,6 +762,9 @@
 | [jdv-j353-type-statut-capacite-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j353-type-statut-capacite-finess) | Jdv J353 Type Statut Capacite Finess | 2 |
 | [jdv-j354-habilitation-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j354-habilitation-finess) | Jdv J354 Habilitation Finess | 1 |
 | [jdv-j357-genre-capacite-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j357-genre-capacite-finess) | Jdv J357 Genre Capacite Finess | 2 |
+| [jdv-j358-type-autorite-enregistrement-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j358-type-autorite-enregistrement-finess) | Jdv J358 Type Autorite Enregistrement Finess | 1 |
+| [jdv-j359-autorite-enregistrement-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j359-autorite-enregistrement-finess) | Jdv J359 Autorite Enregistrement Finess | 19 |
+| [jdv-j360-autorite-regulation-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j360-autorite-regulation-finess) | Jdv J360 Autorite Regulation Finess | 19 |
 | [jdv-j364-type-fermeture-pm-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess) | Jdv J364 Type Fermeture Pm Finess | 3 |
 | [jdv-j365-type-fermeture-ege-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess) | Jdv J365 Type Fermeture Ege Finess | 5 |
 | [jdv-j366-statut-bilan-projet-personnalise-ms](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms) | Jdv J366 Statut Bilan Projet Personnalise Ms | 3 |
@@ -781,6 +773,8 @@
 | [jdv-j370-type-contrat-sejour-ms](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms) | Jdv J370 Type Contrat Sejour Ms | 2 |
 | [jdv-j371-etat-objet-administratif-finess](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j371-etat-objet-administratif-finess) | Jdv J371 Etat Objet Administratif Finess | 40 |
 | [jdv-j372-convention-rass](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j372-convention-rass) | Jdv J372 Convention Rass | 20 |
+| [jdv-j373-type-autorite](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite) | Jdv J373 Type Autorite | 4 |
+| [jdv-j374-autorite](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite) | Jdv J374 Autorite | 45 |
 | [jdv-j375-autorite-ordre](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-autorite-ordre) | Jdv J375 Autorite Ordre | 7 |
 | [jdv-j376-public-activite-smsse-regulee-rass](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass) | Jdv J376 Public Activite Smsse Regulee Rass | 85 |
 | [jdv-j377-categorie-entite-geographique-exercice-ror](https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror) | Jdv J377 Categorie Entite Geographique Exercice Ror | 181 |
@@ -1033,10 +1027,13 @@
 | [vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all) | Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All | 22 |
 | [vs-tre-r385-declaration-act-de-soin-amm-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r385-declaration-act-de-soin-amm-all) | Vs Tre R385 Declaration Act De Soin Amm All | 23 |
 | [vs-tre-r388-type-logement-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r388-type-logement-all) | Vs Tre R388 Type Logement All | 6 |
-| [vs-tre-r392-type-act-smsse-regulee-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r392-type-act-smsse-regulee-all) | Vs Tre R392 Type Act Smsse Regulee All | 4921 |
+| [vs-tre-r392-type-act-smsse-regulee-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r392-type-act-smsse-regulee-all) | Vs Tre R392 Type Act Smsse Regulee All | 5048 |
 | [vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all) | Vs Tre R404 Mode Fonctionnement Activite Smsse Regulee All | 52 |
 | [vs-tre-r405-modalite-activite-smsse-regulee-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r405-modalite-activite-smsse-regulee-all) | Vs Tre R405 Modalite Activite Smsse Regulee All | 183 |
 | [vs-tre-r406-forme-activite-smsse-regulee-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r406-forme-activite-smsse-regulee-all) | Vs Tre R406 Forme Activite Smsse Regulee All | 40 |
+| [vs-tre-r428-activite-reconnaissance-contractuelle](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r428-activite-reconnaissance-contractuelle) | Vs Tre R428 Activite Reconnaissance Contractuelle | 31 |
+| [vs-tre-r429-forme-reconnaissance-contractuelle](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r429-forme-reconnaissance-contractuelle) | Vs Tre R429 Forme Reconnaissance Contractuelle | 46 |
+| [vs-tre-r430-modalite-reconnaissance-contractuelle](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r430-modalite-reconnaissance-contractuelle) | Vs Tre R430 Modalite Reconnaissance Contractuelle | 71 |
 | [vs-tre-r62-domaine-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r62-domaine-all) | Vs Tre R62 Domaine All | 5 |
 | [vs-tre-r73-espic-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r73-espic-all) | Vs Tre R73 Espic All | 9 |
 | [vs-tre-r74-mode-fixation-tarifaire-all](https://smt.esante.gouv.fr/fhir/ValueSet/vs-tre-r74-mode-fixation-tarifaire-all) | Vs Tre R74 Mode Fixation Tarifaire All | 52 |
